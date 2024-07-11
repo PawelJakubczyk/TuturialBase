@@ -7,26 +7,34 @@ using System.Threading.Tasks;
 namespace NewTututial.Linq;
 
 
-internal class LinqFilter
-    {
-    IEnumerable<int> intColection = [1, 2, 3, 4, 5];
-    IEnumerable<object> mixColection = [1, "b", 3, "d", 5];
+public class LinqSort
+{
+    private int[] Numbers = [1,2,3,4,5];
 
-    public IEnumerable<int> whereGreater()
+    // Method to sort the array using LINQ
+    public void SortUsingLinq()
     {
-        return intColection.Where(x => x >= 2);
-    }    
-    public IEnumerable<int> whereTypeInt()
-    {
-        return mixColection.OfType<int>();
-    }    
-    public IEnumerable<int> skipFirstTwo()
-    {
-        return intColection.Skip(2);
-    }       
-    public IEnumerable<int> TakeFirstTwo()
-    {
-        return intColection.Take(2);
-    }   
+        // Sorting in ascending order
+        var sortedAscending = Numbers.OrderBy(n => n);
+
+        Console.WriteLine("Sorted in ascending order:");
+        foreach (var num in sortedAscending)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
+
+        // Sorting in descending order
+        var sortedDescending = Numbers.OrderByDescending(n => n);
+
+        Console.WriteLine("Sorted in descending order:");
+        foreach (var num in sortedDescending)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
+
+
+
+    }
 }
-

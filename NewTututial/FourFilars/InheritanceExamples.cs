@@ -1,6 +1,6 @@
 ﻿namespace NewTututial.FourFilars;
 
-public sealed class ConsoleApp
+public sealed class InheritanceExamples
 {
 
 }
