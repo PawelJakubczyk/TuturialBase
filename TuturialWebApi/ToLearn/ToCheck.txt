@@ -1,0 +1,3 @@
+UDP - unstble conection betwean 2 computers(Networking protocole)
+TCP - stble conection betwean 2 computers(Networking protocole)
+Ping - (Networking protocole)
