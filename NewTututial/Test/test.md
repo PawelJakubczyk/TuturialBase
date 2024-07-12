@@ -1,0 +1,3 @@
+moq
+FluentAssertions
+xUnit.net

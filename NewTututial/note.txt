@@ -1,2 +1,8 @@
 internal classes
 identifiers
+
+Marker Interface
+Ewolutionary Interface
+Generic Interfase
+
+SingleTown

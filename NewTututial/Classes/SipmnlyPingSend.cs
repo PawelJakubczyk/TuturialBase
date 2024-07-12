@@ -34,15 +34,16 @@ internal class SipmnlyPingSend
     public void ReadReport()
     {
         if (Reply != null && Reply.Status == IPStatus.Success)
-        {
+        { 
             Console.WriteLine($"Response: {Reply.Status}");
             Console.WriteLine($"RoundTrip: {Reply.RoundtripTime}");
-            Console.WriteLine($"Time To live: {Reply.Options.Ttl}");
+            Console.WriteLine($"Time To live: {Reply.Options?.Ttl}");
             Console.WriteLine($"Bufer size: {Reply.Buffer.Length}");
+        }
+
         else
-            {
-                Console.WriteLine("Ping failed.");
-            }
+        {
+            Console.WriteLine("Ping failed.");
         }
     }
 }

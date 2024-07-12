@@ -122,8 +122,6 @@
      ```
 
 
-Oto kolejne pojêcia zwi¹zane z jêzykiem C# wraz z definicjami:
-
 
 17. **Indexer**:
     - **Definicja**: Indexer umo¿liwia dostêp do elementów obiektu za pomoc¹ indeksów, podobnie jak w przypadku tablic.
