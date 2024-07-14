@@ -35,21 +35,21 @@ public class Pair<T>
 }
 
 
-static void Booksss()
-{
-    // Użycie klasy generycznej z typem int
-    Pair<int> intPair = new Pair<int>(10, 20);
-    intPair.Print();
+//static void Booksss()
+//{
+//    // Użycie klasy generycznej z typem int
+//    Pair<int> intPair = new Pair<int>(10, 20);
+//    intPair.Print();
 
-    // Użycie klasy generycznej z typem string
-    Pair<string> stringPair = new Pair<string>("Hello", "World");
-    stringPair.Print();
-}
+//    // Użycie klasy generycznej z typem string
+//    Pair<string> stringPair = new Pair<string>("Hello", "World");
+//    stringPair.Print();
+//}
 
-// Użycie klasy generycznej z typem int
-Pair<int> intPair = new Pair<int>(10, 20);
+//// Użycie klasy generycznej z typem int
+//Pair<int> intPair = new Pair<int>(10, 20);
 
 
-// Użycie klasy generycznej z typem string
-Pair<string> stringPair = new Pair<string>("Hello", "World");
+//// Użycie klasy generycznej z typem string
+//Pair<string> stringPair = new Pair<string>("Hello", "World");
 

@@ -18,4 +18,4 @@ int result = newCalculator.Add(1, 2);
 
 Calculator calculator = new Calculator();
 
-int result = calculator.Add(1, 2);
+int result2 = calculator.Add(1, 2);
