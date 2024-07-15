@@ -15,21 +15,22 @@ public static class MovieClassMap
         {
             classMap.MapIdMember(m => m.Id)
                 .SetElementName("_id")
-                .SetOrder(1)
                 .SetIdGenerator(StringObjectIdGenerator.Instance)
-                .SetSerializer(new StringSerializer(BsonType.ObjectId));
+                .SetSerializer(new StringSerializer(BsonType.ObjectId))
+                .SetOrder(1);
 
             classMap.MapMember(m => m.Title)
                 .SetElementName(nameof(Movie.Title))
                 .SetOrder(2);
 
-            classMap.MapMember(m => m.Year)
-                .SetElementName(nameof(Movie.Year))
-                .SetOrder(3);
+            //classMap.MapMember(m => m.Year)
+            //    .SetElementName(nameof(Movie.Year))
+            //    .SetSerializer(new StringSerializer(BsonType.String)) // Dodane mapowanie do string
+            //    .SetOrder(3);
 
             classMap.MapMember(m => m.Rated)
                 .SetElementName(nameof(Movie.Rated))
-                .SetOrder(4);
+                .SetOrder(3);
         });
     }
 }
