@@ -9,6 +9,13 @@ namespace TuturialWebApi.Controllers;
 [ApiController]
 public class MovieController(IMovieContext movieContext) : ControllerBase
 {
+    private class LengthRequestDto
+    {
+        public int MinLength { get; set; }
+        public int MaxLength { get; set; }
+    }
+
+
     private readonly IMovieContext _movieContext = movieContext;
 
     [HttpGet]
@@ -16,6 +23,30 @@ public class MovieController(IMovieContext movieContext) : ControllerBase
     {
         return await _movieContext.Movies.Find(FilterDefinition<Movie>.Empty).ToListAsync();
     }
+
+    [HttpGet("max/{max}")]
+    public async Task<IEnumerable<Movie>> GetMaxMovies([FromRoute]int max, [FromQuery]int take)
+
+    {
+        // Download up to 'max' videos from the database
+        var movies = await _movieContext.Movies
+        .Find(FilterDefinition<Movie>.Empty)
+        .Limit(max)
+        .ToListAsync();
+
+        // Return the first 'take' of videos from the list
+        return movies.Take(take);
+
+    }
+
+    [HttpGet("Greeting/{id}")]
+    public async Task<ActionResult<Movie>> GetGreetingWitTitleById([FromRoute]string id)
+    {
+        var filter = Builders<Movie>.Filter.Eq(x => x.Id, id);
+        var movie = await _movieContext.Movies.Find(filter).FirstOrDefaultAsync();
+        return StatusCode(201, $"Hello {movie.Title}");
+    }
+
 
     [HttpGet("{id}")]
     public async Task<ActionResult<Movie?>> GetMovieById(string id)
@@ -32,6 +63,33 @@ public class MovieController(IMovieContext movieContext) : ControllerBase
         var movie = await _movieContext.Movies.Find(filter).FirstOrDefaultAsync();
         return movie is not null ? Ok(movie) : NotFound();
     }
+
+    //[HttpGet("length")]
+    //public async Task<ActionResult<Movie?>> GetMovieByTitleLength([FromBody] LengthRequestDto rangeLength, [FromQuery] int take)
+    //{
+
+    //    var min = rangeLength.MinLength;
+    //    var max = rangeLength.MaxLength;
+
+    //    var filter = Builders<Movie>.Filter.And(
+    //        Builders<Movie>.Filter.Where(x => x.Title.Length >= min),
+    //        Builders<Movie>.Filter.Where(x => x.Title.Length <= max)
+    //    );
+
+    //    if (min <= 0)
+    //    {
+    //        return BadRequest("Minimum length must be greater than 0.");
+    //    }
+
+    //    if (min >= max)
+    //    {
+    //        return BadRequest("Minimum length must be less than maximum length.");
+    //    }
+
+    //    var movies = await _movieContext.Movies.Find(filter).Limit(take).ToListAsync();
+
+    //    return Ok(movies);
+    //}
 
 
     [HttpPost]
