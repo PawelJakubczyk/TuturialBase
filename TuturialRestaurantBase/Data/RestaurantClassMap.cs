@@ -51,7 +51,7 @@ public static class RestaurantClassMap
                 .SetSerializer(new BsonClassMapSerializer<Address>(BsonClassMap.LookupClassMap(typeof(Address))))
                 .SetOrder(8);
 
-            // Map Dishes as a complex type (list of Dish)
+            // Map Dishes as a complex type (Array of Dish)
             classMap.MapMember(r => r.Dishes)
                 .SetElementName(nameof(Restaurant.Dishes))
                 .SetSerializer(new ArraySerializer<Dish>(new BsonClassMapSerializer<Dish>(BsonClassMap.LookupClassMap(typeof(Dish)))))

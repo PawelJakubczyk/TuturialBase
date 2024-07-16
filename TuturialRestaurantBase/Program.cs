@@ -1,3 +1,4 @@
+using TutorialWebApi.Services;
 using TuturialRestaurantBase.Data;
 
 
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IRestaurantContext, RestaurantContext>();
+builder.Services.AddScoped<RestaurantService>();
 
 var app = builder.Build();
 
