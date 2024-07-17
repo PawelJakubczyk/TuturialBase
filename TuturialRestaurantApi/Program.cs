@@ -1,9 +1,7 @@
 using TutorialWebApi.Services;
 using TuturialRestaurantBase.Data;
 
-
 var builder = WebApplication.CreateBuilder(args);
-
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -11,6 +9,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IRestaurantContext, RestaurantContext>();
 builder.Services.AddScoped<RestaurantService>();
+builder.Services.AddMediatR(options =>
+{
+    options.RegisterServicesFromAssembly(typeof(Program).Assembly);
+});
 
 var app = builder.Build();
 
