@@ -1,5 +1,43 @@
-﻿using System;
-using System.Numerics;
+﻿using System.Numerics;
+
+
+namespace EasyExercaiseTuturial
+{
+    internal class Exercise1
+    {
+        /*
+Hello World:
+Napisz program, który wyświetla na ekranie tekst "Hello, World!".
+
+Kalkulator:
+Napisz program, który poprosi użytkownika o wprowadzenie dwóch liczb i wyświetli ich sumę, różnicę, iloczyn oraz iloraz.
+
+Sprawdź parzystość:
+Napisz program, który poprosi użytkownika o wprowadzenie liczby całkowitej i wyświetli, czy jest ona parzysta czy nieparzysta.
+
+Proste wyrażenia logiczne:
+Napisz program, który poprosi użytkownika o wprowadzenie jego wieku i wyświetli, czy użytkownik jest pełnoletni (18 lat lub więcej).
+
+Pętla for:
+Napisz program, który wyświetli liczby od 1 do 10.
+
+Tablica liczb:
+Napisz program, który poprosi użytkownika o wprowadzenie pięciu liczb, zapisze je do tablicy, a następnie wyświetli ich średnią arytmetyczną.
+
+Kalkulator BMI:
+Napisz program, który obliczy i wyświetli BMI (Body Mass Index) na podstawie wzrostu (w metrach) i wagi (w kilogramach) podanych przez użytkownika.
+
+Odwracanie ciągu znaków:
+Napisz program, który poprosi użytkownika o wprowadzenie ciągu znaków i wyświetli ten ciąg odwrócony.
+
+Zgadnij liczbę:
+Napisz prostą grę, w której program losuje liczbę od 1 do 100, a użytkownik ma zgadnąć tę liczbę. Program powinien informować użytkownika, czy jego zgadywana liczba jest za wysoka, za niska, czy prawidłowa.
+
+Tabliczka mnożenia:
+Napisz program, który wyświetli tabliczkę mnożenia dla liczb od 1 do 10.
+         */
+    }
+}
 
 public class Writehello
 {
@@ -236,7 +274,7 @@ public static class StringExpansion
     }
 
     public static string Reverse(this string stringToRevers)
-    {   
+    {
         if (stringToRevers.IsNullOrEmpty())
         {
             return stringToRevers;
@@ -245,12 +283,15 @@ public static class StringExpansion
         string reverseString = string.Empty;
         char[] CharArray = stringToRevers.ToCharArray();
 
-        for (int i = (CharArray.Length - 1); i>= 0; i--)
+        for (int i = (CharArray.Length - 1); i >= 0; i--)
         {
             reverseString += i;
         }
         return reverseString;
     }
+}
 
+public class NumberSelector()
+{
 
 }

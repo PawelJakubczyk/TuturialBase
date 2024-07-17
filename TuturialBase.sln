@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTututial", "NewTututial\NewTututial.csproj", "{1910FB50-D528-4A42-984B-5B0CD0AA3B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTututialEncyclopedia", "NewTututialEncyclopedia\NewTututialEncyclopedia.csproj", "{1910FB50-D528-4A42-984B-5B0CD0AA3B23}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuturialWebApi", "TuturialWebApi\TuturialWebApi.csproj", "{25D0D4CD-AAD1-4C1A-8337-41E0B4E30B06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuturialMovieApi", "TuturialMovieApi\TuturialMovieApi.csproj", "{25D0D4CD-AAD1-4C1A-8337-41E0B4E30B06}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyExercaiseTuturial", "MongoDbORMTuturial\EasyExercaiseTuturial.csproj", "{ED89D2DE-DDDA-4CFF-97B8-1E87A798DCD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyExercaiseTuturial", "EasyExercaiseTuturial\EasyExercaiseTuturial.csproj", "{ED89D2DE-DDDA-4CFF-97B8-1E87A798DCD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuturialRestaurantBase", "TuturialRestaurantBase\TuturialRestaurantBase.csproj", "{28801C65-0388-449C-8BBD-A407C0F3855D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuturialRestaurantApi", "TuturialRestaurantApi\TuturialRestaurantApi.csproj", "{28801C65-0388-449C-8BBD-A407C0F3855D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

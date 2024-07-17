@@ -17,3 +17,9 @@ refleksja
 
 faktoria
 
+Marker Inrerface
+
+generyczny interfejs
+
+Mediator
+
