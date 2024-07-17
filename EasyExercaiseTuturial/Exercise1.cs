@@ -291,7 +291,20 @@ public static class StringExpansion
     }
 }
 
-public class NumberSelector()
+public class NumberGameSelector
 {
+    private Random random = new Random();
+    private int _randomNumber;
 
+    public NumberGameSelector()
+    {
+        _randomNumber = random.Next(1, 101);
+    }
+
+    public string Guess(int number) => number switch
+    {
+        < _randomNumber => "too low",
+        > _randomNumber => "too high",
+        _ => "congratulations, you nailed it!"
+    };
 }
