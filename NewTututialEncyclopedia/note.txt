@@ -23,3 +23,19 @@ generyczny interfejs
 
 Mediator
 
+Asembly(monta¿)
+
+ref out
+
+refleksja
+
+Delegate daelegata
+	delegata generyczna
+	delegaty generyczne wbudowane:
+		Actions Akcje
+		Func Funkcjê
+		Predicate Predykat
+predicate predykata
+
+mediator
+

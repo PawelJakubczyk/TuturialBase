@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using TutorialRestaurantBase.Entities;
 using TuturialRestaurantApi.Features.Restaurants.CRUDByID.GetById;
-using TuturialRestaurantApi.Features.Restaurants.GetById;
 
 namespace TuturialWebApi.Controllers;
 

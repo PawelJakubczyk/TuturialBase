@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NewTututialEncyclopedia._1.Encyclopedia._08.Asynchronous;
+
+
+
+//private async Task ReadTextAsync(Yandleri obj)
+//{
+//    ResultLabel.Content = "Reading started:";
+//    var stopwatch = Stopwatch.StartNew();
+//    await ProcessFilesAsync();
+//    stopwatch.Stop();
+//    ResultLabel.Content = $"Finished in: {stopwatch.ElapsedMilliseconds} ms";
+//}
+
+//private async Task ProcessFilesAsync()
+//{
+//    var filesPath = "D:/files/";
+//    for (int i = 1; i <= 5; i++)
+//    {
+//        var filePath = filesPath + $"{i}.txt";
+//        try
+//        {
+//            using (var reader = new StreamReader(filePath, Encoding.UTF8))
+//            {
+//                ResultLabel.Content = $"Reading {filePath}...";
+//                string fileContent = await reader.ReadToEndAsync();
+//                // processing file content
+//            }
+//        }
+//        catch (Exception ex)
+//        {
+//            // handle exception
+//        }
+//    }
+//}

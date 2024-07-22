@@ -1,0 +1,1 @@
+Hermetyzuje metodê, która nie ma parametrów i nie zwraca wartoœci.
