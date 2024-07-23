@@ -16,11 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="ASP.Encyklopedia\20.ASP\" />
     <Folder Include="Encyclopedia\02.Programing Principles\04.KISS\" />
     <Folder Include="Encyclopedia\02.Programing Principles\05.YAGNI\" />
-    <Folder Include="Encyclopedia\12.Refleksion\" />
-    <Folder Include="Encyclopedia\14.BoxingAndUnboxing\" />
-    <Folder Include="Encyclopedia\15.Yield\" />
+    <Folder Include="Encyclopedia\14.Refleksion\" />
+    <Folder Include="Encyclopedia\06.Memory\BoxingAndUnboxing\" />
+    <Folder Include="Encyclopedia\19.Debuger\" />
   </ItemGroup>
 
   <ItemGroup>

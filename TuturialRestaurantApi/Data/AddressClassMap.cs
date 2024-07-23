@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson.Serialization;
-using TutorialRestaurantBase.Entities;
+using TutorialRestaurantApi.Entities;
 
-namespace TuturialRestaurantBase.Data;
+namespace TuturialRestaurantApi.Data;
 
 
 public static class AddressClassMap

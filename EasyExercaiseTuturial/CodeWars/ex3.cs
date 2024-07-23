@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EasyExercaiseTuturial.CodeWars
 {
-    internal class Exercise2
+    internal class ex3
     {
     }
 }

@@ -7,7 +7,6 @@ Generic Interfase
 
 SingleTown
 
-
 Mediator
 Midleware
 
@@ -38,4 +37,48 @@ Delegate daelegata
 predicate predykata
 
 mediator
+
+is as
+
+konstruktor statyczny
+
+??????????? Testing ???????????
+[Fact]
+
+[Theory]
+/inline data - 
+/class data - najlepiej jak dziedzicy TheoryData silna typizacjia z parametrami generycznymi
+/member data - dane z metody lub w³aœciwoœci powinna zwracaæ TheoryData
+
+mock - 
+
+stabowanie servisu stawianie sztucznym serwisów które przchwytuj¹ zapytanie
+mokowanie servis
+
+Web API(Aplication Programing Interface) - tylko beckend
+Aplikacja webowa - c³oœæ
+
+Web API
+Smoke Test
+Spike Test
+Stress Test
+Performance Test
+
+Testy Funkcjonalnoœci
+
+Pokrycie Testów
+
+Testy Mnualne
+Testy Automatyczne
+
+Atribiute wspowinowaca meta-dane dziedziczy z Atribiute
+Refleksja sposób wyci¹gania meta-danych
+co to s¹ metadane?
+
+Agile
+Waterfall
+
+Cean Architectur
+DDD
+
 

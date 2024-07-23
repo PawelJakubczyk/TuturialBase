@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
-using TutorialRestaurantBase.Entities;
-namespace TuturialRestaurantBase.Data;
+using TutorialRestaurantApi.Entities;
+namespace TuturialRestaurantApi.Data;
 
 public class RestaurantContext : IRestaurantContext
 {

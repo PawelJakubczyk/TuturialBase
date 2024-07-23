@@ -1,5 +1,5 @@
 using TutorialWebApi.Services;
-using TuturialRestaurantBase.Data;
+using TuturialRestaurantApi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using TutorialRestaurantBase.Entities;
+using TutorialRestaurantApi.Entities;
 
 namespace TuturialRestaurantApi.Features.Restaurants.CRUDByID.GetById;
 

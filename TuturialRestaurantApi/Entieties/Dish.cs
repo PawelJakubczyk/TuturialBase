@@ -1,4 +1,4 @@
-﻿namespace TutorialRestaurantBase.Entities
+﻿namespace TutorialRestaurantApi.Entities
 {
     public class Dish
     {
