@@ -1,7 +1,7 @@
 ﻿using TutorialWebApi.Services;
-using TuturialRestaurantBase.Data;
+using TuturialRestaurantApi.Data;
 
-namespace TuturialRestaurantBase;
+namespace TuturialRestaurantApi;
 
 public class Startup
 {

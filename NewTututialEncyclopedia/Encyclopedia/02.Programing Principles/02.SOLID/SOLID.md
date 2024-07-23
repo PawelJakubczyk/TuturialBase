@@ -15,6 +15,16 @@
 5. **Dependency Inversion Principle (DIP)**
    Wysokopoziomowe modu³y nie powinny zale¿eæ od niskopoziomowych modu³ów. Oba powinny zale¿eæ od abstrakcji.
 
+   Oczywiœcie, oto tabela przedstawiaj¹ca zasady SOLID:
+
+| Inicja³ | Skrót | Koncepcja |
+|---------|-------|-----------|
+| S       | SRP | **Single responsibility principle (Zasada jednej odpowiedzialnoœci)**<br>Klasa powinna mieæ tylko jedn¹ odpowiedzialnoœæ (nigdy nie powinien istnieæ wiêcej ni¿ jeden powód do modyfikacji klasy). |
+| O       | OCP | **Open/closed principle (Zasada otwarte-zamkniête)**<br>Klasy (encje) powinny byæ otwarte na rozszerzenia i zamkniête na modyfikacje. |
+| L       | LSP | **Liskov substitution principle (Zasada podstawienia Liskov)**<br>Funkcje które u¿ywaj¹ wskaŸników lub referencji do klas bazowych, musz¹ byæ w stanie u¿ywaæ równie¿ obiektów klas dziedzicz¹cych po klasach bazowych, bez dok³adnej znajomoœci tych obiektów. |
+| I       | ISP | **Interface segregation principle (Zasada segregacji interfejsów)**<br>Wiele dedykowanych interfejsów jest lepsze ni¿ jeden ogólny. |
+| D       | DIP | **Dependency inversion principle (Zasada odwrócenia zale¿noœci)**<br>Wysokopoziomowe modu³y nie powinny zale¿eæ od modu³ów niskopoziomowych - zale¿noœci miêdzy nimi powinny wynikaæ z abstrakcji. |
+
 ### SOLID Principles in C# Examples
 
 1. **Single Responsibility Principle (SRP)**

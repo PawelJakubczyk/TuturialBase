@@ -4,3 +4,4 @@ public sealed class EncapsulationExamples
 {
     //comment
 }
+

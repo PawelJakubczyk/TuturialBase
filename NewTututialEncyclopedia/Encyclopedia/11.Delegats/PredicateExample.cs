@@ -10,7 +10,7 @@ public class PredicateExample
 {
     List<int> exampleNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-    public bool Check(int number, Predicate<int> predicate)
+    public static bool Check(int number, Predicate<int> predicate)
 	{
         return predicate(number);
 	}

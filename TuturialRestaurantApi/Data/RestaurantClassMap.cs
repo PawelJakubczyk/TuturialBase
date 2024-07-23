@@ -2,9 +2,9 @@
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.IdGenerators;
 using MongoDB.Bson.Serialization.Serializers;
-using TutorialRestaurantBase.Entities;
+using TutorialRestaurantApi.Entities;
 
-namespace TuturialRestaurantBase.Data;
+namespace TuturialRestaurantApi.Data;
 
 public static class RestaurantClassMap
 {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
-using TuturialRestaurantBase.Data;
-using TutorialRestaurantBase.Entities;
+using TuturialRestaurantApi.Data;
+using TutorialRestaurantApi.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using TutorialWebApi.Services;

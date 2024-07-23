@@ -1,7 +1,9 @@
 ﻿using MediatR;
 using MongoDB.Driver;
-using TutorialRestaurantBase.Entities;
-using TuturialRestaurantBase.Data;
+using TutorialRestaurantApi.Entities;
+using TuturialRestaurantApi.Data;
+
+namespace 
 
 public sealed class GetAllRestaurantQueryHandler : IRequestHandler<GetAllRestaurantQuery, Restaurant>
 {

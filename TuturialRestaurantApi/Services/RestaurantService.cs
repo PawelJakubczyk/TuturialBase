@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
-using TutorialRestaurantBase.Entities;
-using TuturialRestaurantBase.Data;
+using TutorialRestaurantApi.Entities;
+using TuturialRestaurantApi.Data;
 
 namespace TutorialWebApi.Services;
 

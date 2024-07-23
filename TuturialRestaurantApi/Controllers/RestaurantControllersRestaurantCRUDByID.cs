@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using TutorialRestaurantBase.Entities;
+using TutorialRestaurantApi.Entities;
 using TuturialRestaurantApi.Features.Restaurants.CRUDByID.GetById;
 
 namespace TuturialWebApi.Controllers;

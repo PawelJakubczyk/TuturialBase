@@ -1,4 +1,4 @@
 ﻿using MediatR;
-using TutorialRestaurantBase.Entities;
+using TutorialRestaurantApi.Entities;
 
 public sealed record GetRestaurantByCategoryQuery(string Cateogry) : IRequest<Restaurant>;

@@ -10,28 +10,27 @@ public sealed class PredicateExampleTests
     private readonly Predicate<int> _isEven = number => number % 2 == 0;
 
     [Theory]
-    [InlineData(1)]
-    [InlineData(3)]
-    [InlineData(5)]
-    [InlineData(7)]
-    public void Check_ShouldReturnTrue_ForOddNumberAndIsOddPredicate_Theory(int input)
+    [InlineData(2)]
+    [InlineData(4)]
+    [InlineData(6)]
+    [InlineData(8)]
+    public void Check_ShouldReturnTrue_ForEvenNumberAndIsEvenPredicate(int input)
     {
         // Act
-        bool result = _predicateExample.Check(input, _isOdd);
+        bool result = PredicateExample.Check(input, _isEven);
 
         // Assert
         result.Should().BeTrue();
     }
 
     [Theory]
-    [InlineData(2)]
-    [InlineData(4)]
-    [InlineData(6)]
-    [InlineData(8)]
+    [InlineData(3)]
+    [InlineData(5)]
+    [InlineData(7)]
     public void Check_ShouldReturnTrue_ForOddNumberAndIsOddPredicate(int input)
     {
         // Act
-        bool result = _predicateExample.Check(input, _isOdd);
+        bool result = PredicateExample.Check(input, _isOdd);
 
         // Assert
         result.Should().BeTrue();
@@ -45,7 +44,7 @@ public sealed class PredicateExampleTests
     public void Check_ShouldReturnFalse_ForEvenNumberAndIsOddPredicate(int input)
     {
         // Act
-        bool result = _predicateExample.Check(input, _isEven);
+        bool result = PredicateExample.Check(input, _isOdd);
 
         // Assert
         result.Should().BeFalse();
@@ -78,4 +77,3 @@ public sealed class PredicateExampleTests
         result.Should().BeEquivalentTo(expected);
     }
 }
-

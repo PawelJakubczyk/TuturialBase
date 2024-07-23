@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace NewTututial.MethodsExample;
 
 
-public class AbstaractClass
+public abstract class AbstaractClass
 {
     public virtual void OverrideMethod()
     {
@@ -20,7 +20,7 @@ public class AbstaractClass
     }
 }
 
-public class MethodsExample : AbstaractClass
+public sealed class MethodsExample : AbstaractClass
 {
     // Public method
     public void PublicMethod()
