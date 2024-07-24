@@ -1,7 +1,7 @@
-﻿using FluentAssertions;
-using NewTututialEncyclopedia._1.Encyclopedia._11.Delegats;
+﻿using Encyclopedia.DelegatsExamples;
+using FluentAssertions;
 
-namespace TuturialRestaurantApi.Tests.TestEncycklopedia.TestDelegate;
+namespace TestEncyklopedia.TestDelegatsExamples;
 
 public class TestActionsExample
 {

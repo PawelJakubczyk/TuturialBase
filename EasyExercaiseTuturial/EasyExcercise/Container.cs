@@ -1,4 +1,4 @@
-﻿namespace NewTututialEncyklopedia.EasyExcercise;
+﻿namespace Exercise.EasyExcercise;
 
 public sealed class Container
 {

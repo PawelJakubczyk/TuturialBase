@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Encyclopedia.PatternsExamples;
 
-namespace NewTututialEncyklopedia._1.Encyclopedia.Patterns.Mediator
+internal class Mediator
 {
-    internal class Mediator
-    {
-    }
 }

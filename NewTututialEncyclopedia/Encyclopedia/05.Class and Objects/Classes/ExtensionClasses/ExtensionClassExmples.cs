@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace NewTututialEncyklopedia.Classes.ExtensionClasses;
+﻿namespace Encyclopedia.ClassesExamples;
 
 public static class StringExtensions
 {
@@ -47,4 +45,3 @@ public static class ArrayExtensions
         return sourceArray;
     }
 }
-

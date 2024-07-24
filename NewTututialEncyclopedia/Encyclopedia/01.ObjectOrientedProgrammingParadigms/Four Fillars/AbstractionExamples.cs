@@ -1,4 +1,4 @@
-﻿namespace NewTututialEncyklopedia.FourFilars;
+﻿namespace Encyclopedia.OOP.FourFilarsExamples;
 
 // Abstract Class Example
 public abstract class Shape
@@ -21,7 +21,7 @@ public abstract class Shape
     public virtual void DisplayComment()
     {
         Console.WriteLine(
-            @"A shape is a graphical representation of an object's form or its external boundary, 
+            @"A shape is a graphical representation of an object's form or its external boundary,
                 outline, or external surface. It is distinct from other object properties, such as color,
                 texture, or material type. In geometry, shape excludes information about the object's location,
                 scale, orientation, and reflection. A figure is a representation including both shape and size."
@@ -116,4 +116,3 @@ public class MultiFunctionDevice : IPrinter, IScanner
         Console.WriteLine($"Scanning document: {document}");
     }
 }
-

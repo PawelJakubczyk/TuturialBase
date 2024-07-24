@@ -1,4 +1,4 @@
-﻿namespace NewTututialEncyklopedia.Classes;
+﻿namespace Encyclopedia.ClassesExamples;
 
 // Extension Classess must be static must expnd sttic class and use this keyword
 public class PlayerToExpand

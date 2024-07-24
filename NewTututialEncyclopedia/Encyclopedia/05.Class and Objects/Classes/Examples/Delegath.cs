@@ -1,5 +1,4 @@
-﻿namespace TeddySmithTuturial.Classes;
-using System.Linq;
+﻿namespace Encyclopedia.ClassesExamples;
 
 //public static void Execute(Action<string, int> innerExecuter, string input, int number)
 //{
@@ -23,7 +22,6 @@ using System.Linq;
 //{
 //    return 2;
 //}
-
 
 //public string WhatIsRogalLevel(Rogalizacje rogalizationMethod, string input)
 //{

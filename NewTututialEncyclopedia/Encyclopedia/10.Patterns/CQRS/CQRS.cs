@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace ROGAL;
+﻿namespace Encyclopedia.PatternsExamples;
 
 // src//[ Aplication ]//Abstraction//Messenging//ICommand
 public interface ICommand : IBaseCommand
@@ -19,6 +12,7 @@ public interface ICommand<TResponse> : IBaseCommand
 public interface IBaseCommand
 {
 }
+
 // src//[ Aplication ]//Abstraction//Messenging//IComandHandler
 public interface IComandHandler<in TCommand>
     where TCommand : ICommand
@@ -31,16 +25,19 @@ public interface ICommandHandler<in TCommand, TResponse>
 {
     Task<Result<TResponse>> Handle(TCommand command, CancellationToken cancellationToken);
 }
+
 // src//[ Aplication ]//Abstraction//Messenging//IQuery
 public interface IQuery<TResponse>
 {
 }
+
 // src//[ Aplication ]//Abstraction//Messenging//IQueryHandler
 public interface IQueryHandler<in TQuery, TResponse>
     where TQuery : IQuery<TResponse>
 {
     Task<Result<TResponse>> Handle(TQuery query, CancellationToken cancellationToken);
 }
+
 //Result
 public abstract class ResultBase
 {
@@ -96,7 +93,6 @@ public sealed class Result : ResultBase
         return new Result(null, error, false);
     }
 }
-
 
 //Using Example
 

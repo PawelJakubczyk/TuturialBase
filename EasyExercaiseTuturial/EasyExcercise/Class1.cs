@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewTututialEncyklopedia.EasyExcercise;
-
+namespace Exercise.EasyExcercise;
 
 public class Kata
 {
     public static string DoubleChar(string s)
-    {   
+    {
         string newString = string.Empty;
         foreach (char c in s)
         {

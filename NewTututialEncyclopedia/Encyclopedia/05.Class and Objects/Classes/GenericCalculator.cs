@@ -1,6 +1,6 @@
-﻿namespace NewTututialEncyklopedia.Types;
-using System.Numerics;
+﻿using System.Numerics;
 
+namespace Encyclopedia.ClassesExamples;
 
 //INumber<TNumber> IGenericType<Generic Parameter>
 public class GenericCalculator
@@ -29,5 +29,3 @@ public class GenericCalculator
         return number1 / number2;
     }
 }
-
-

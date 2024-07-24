@@ -1,4 +1,4 @@
-﻿namespace TeddySmithTuturial;
+﻿namespace Encyclopedia.ClassesExamples;
 
 public sealed class ValidationCandy
 {
@@ -42,7 +42,6 @@ public sealed class ValidationCandy
         return Create(candyType.ToString());
     }
 }
-
 
 //class Program
 //{

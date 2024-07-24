@@ -1,11 +1,11 @@
-﻿namespace TeddySmithTuturial.Classes;
+﻿namespace Encyclopedia.ClassesExamples;
 
 public interface IAnimal
 {
     void MakeSound();
+
     void Move();
 }
-
 
 public class Dog : IAnimal
 {
@@ -21,7 +21,6 @@ public class Dog : IAnimal
     }
 }
 
-
 public class Cat : IAnimal
 {
     public void MakeSound()
@@ -34,7 +33,6 @@ public class Cat : IAnimal
         Console.WriteLine("The cat walks gracefully.");
     }
 }
-
 
 //class Program
 //{

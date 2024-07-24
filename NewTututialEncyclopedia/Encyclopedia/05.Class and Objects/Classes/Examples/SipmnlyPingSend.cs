@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using System.Net.NetworkInformation;
 
-namespace NewTututialEncyklopedia.Classes;
+namespace Encyclopedia.ClassesExamples;
+
 internal class SipmnlyPingSend
 {
     private readonly Ping _pingSender = new();
@@ -34,22 +31,15 @@ internal class SipmnlyPingSend
     public void ReadReport()
     {
         if (Reply != null && Reply.Status == IPStatus.Success)
-        { 
+        {
             Console.WriteLine($"Response: {Reply.Status}");
             Console.WriteLine($"RoundTrip: {Reply.RoundtripTime}");
             Console.WriteLine($"Time To live: {Reply.Options?.Ttl}");
             Console.WriteLine($"Bufer size: {Reply.Buffer.Length}");
         }
-
         else
         {
             Console.WriteLine("Ping failed.");
         }
     }
 }
-
-
-
-
-
-

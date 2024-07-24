@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NewTututialEncyklopedia.Linq;
-
+﻿namespace Encyclopedia.LinqExamples;
 
 public class LinqSort
 {
-    private int[] Numbers = [1,2,3,4,5];
+    private int[] Numbers = [1, 2, 3, 4, 5];
 
     // Method to sort the array using LINQ
     public void SortUsingLinq()
@@ -33,8 +26,5 @@ public class LinqSort
             Console.Write(num + " ");
         }
         Console.WriteLine();
-
-
-
     }
 }

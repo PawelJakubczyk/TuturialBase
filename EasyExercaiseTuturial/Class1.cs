@@ -1,4 +1,4 @@
-﻿namespace MongoDbORMTuturial;
+﻿namespace Exercise;
 
 public sealed class Class1
 {

@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Reflection;
 
-namespace CsharpBasics.Introduction;
+namespace Encyclopedia.DataTypesExamples;
 
 //In this file we cover the topic of basic types and casting
 
@@ -31,7 +31,7 @@ public class Types
 
         //'short' is signed 16-bit integer: from -32 768 to 32 767
         short signedShort;
-        
+
         //'ushort' is signed 16-bit integer: from 0 to 65 535
         ushort unsignedShort;
 
@@ -43,7 +43,7 @@ public class Types
 
         //'long' is signed 64-bit integer: from -9 223 372 036 854 775 808 to 9 223 372 036 854 775 807
         long signedLong;
-        
+
         //'long' is unsigned 64-bit integer: from 0 to 18 446 744 073 709 551 615
         ulong unsignedLong;
 
@@ -73,8 +73,9 @@ public class Types
         var binaryLiteral = 0b00101010;
 
         #endregion Integer literals
-        
+
         #region Digit separator
+
         //We can use the digit separator '_' to make a number readable
 
         var decimalLiteral2 = 4_423_32;
@@ -94,7 +95,7 @@ public class Types
         double doubleNumber;
 
         //'decimal' is signed 16-bytes number, with precision of approximately 28-29 digits
-        //'decimal' is based on a decimal system (digits from 0 to 9) that is no native for processor (float, double is native). 
+        //'decimal' is based on a decimal system (digits from 0 to 9) that is no native for processor (float, double is native).
         //Therefore, the calculations are slower but more accurate (floats and double have a little error)
         decimal decimalNumber;
 
@@ -110,7 +111,7 @@ public class Types
         //Each floating point MinValue, MaxValue constants. For example
         var doubleMaxValue = double.MaxValue;
 
-        #endregion
+        #endregion Floating point numbers
 
         #region Real literals
 
@@ -134,7 +135,7 @@ public class Types
         float floatValue3 = 132.42E-2f; //its 132.42 * 10^-2
         decimal decimalValue3 = 1.4213e5m; //its 1.4213 * 10^5
 
-        #endregion
+        #endregion Real literals
 
         #region bool
 
@@ -178,7 +179,7 @@ public class Types
 
         //we can also cast the number to character
         char charValue6 = (char)106;
-        
+
         int charMaxValue = char.MaxValue;
 
         #endregion char
@@ -197,7 +198,7 @@ public class Types
 
         //One of the common used types in c# is the DateTime. It is a referenced type.
 
-        //We create the DateTime instance by calling a constructor 
+        //We create the DateTime instance by calling a constructor
         DateTime dateTime = new(1991, 6, 18);
 
         //We can also parse the string representation
@@ -217,7 +218,7 @@ public class Types
         Console.WriteLine($"You were born: {timeSpan.TotalDays} days ago");
         //so TimeSpan contains information about the time internalval
 
-        #endregion
+        #endregion DateTime, DateOnly, TimeOnly, TimeSpan
 
         #region TypeOf, Type, SizeOf
 
@@ -241,13 +242,9 @@ public class Types
         //we use the sizeof operator to get the size of the specified type
         int sizeOfIntegerVaraible = sizeof(int);
 
-
         //TypeOf returs a
 
-
         //the sizeOf can be use to the memory size of the specified type
-
-
 
         #endregion TypeOf, Type, SizeOf
 
@@ -269,19 +266,19 @@ public class Types
         //object can be null
         object obj2 = null;
 
-        #endregion
+        #endregion Object type
 
         #region Dynamic type
 
         //Covered in CsharpAdvanced project -> "Keywords" folder -> "Dynamics.cs" file
 
-        #endregion
+        #endregion Dynamic type
 
         #region Pointer type
 
         //Covered in Introduction folder -> "Pointer.cs" file
 
-        #endregion
+        #endregion Pointer type
 
         #region Unmanage type
 
@@ -294,7 +291,7 @@ public class Types
         //Beginning with C# 7.3, you can use the unmanaged constraint to specify that a type parameter is a non-pointer, non-nullable unmanaged type.
         //Beginning with C# 8.0, a constructed struct type that contains fields of unmanaged types only is also unmanaged
 
-        #endregion
+        #endregion Unmanage type
 
         #region Reference types
 
@@ -314,6 +311,6 @@ public class Types
             string
         */
 
-        #endregion
+        #endregion Reference types
     }
 }

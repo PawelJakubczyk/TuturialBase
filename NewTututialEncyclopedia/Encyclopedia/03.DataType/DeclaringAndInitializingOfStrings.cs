@@ -1,4 +1,4 @@
-﻿namespace StringTest;
+﻿namespace Encyclopedia.DataTypesExamples;
 
 public class DeclaringAndInitializingOfStrings
 {

@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NewTututialEncyklopedia.LinqExamples;
-
+﻿namespace Encyclopedia.LinqExamples;
 
 internal class LinqFilter
 {
-    Func<int, bool> Predicate = (x => x > 2);
-    IEnumerable<int> intCollection = new List<int> { 1, 2, 3, 4, 5 };
-    IEnumerable<object> mixCollection = new List<object> { 1, "b", 3, "d", 5 };
+    private Func<int, bool> Predicate = (x => x > 2);
+    private IEnumerable<int> intCollection = new List<int> { 1, 2, 3, 4, 5 };
+    private IEnumerable<object> mixCollection = new List<object> { 1, "b", 3, "d", 5 };
 
     // Take methods
     public IEnumerable<int> TakeFirst(int count)

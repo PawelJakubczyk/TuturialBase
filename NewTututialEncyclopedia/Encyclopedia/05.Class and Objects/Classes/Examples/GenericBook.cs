@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NewTututialEncyklopedia.Classes;
-
+﻿namespace Encyclopedia.ClassesExamples;
 
 internal class GenericBook<T>
 {
@@ -34,7 +27,6 @@ public class Pair<T>
     }
 }
 
-
 //static void Booksss()
 //{
 //    // Użycie klasy generycznej z typem int
@@ -49,7 +41,5 @@ public class Pair<T>
 //// Użycie klasy generycznej z typem int
 //Pair<int> intPair = new Pair<int>(10, 20);
 
-
 //// Użycie klasy generycznej z typem string
 //Pair<string> stringPair = new Pair<string>("Hello", "World");
-

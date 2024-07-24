@@ -1,7 +1,4 @@
-﻿using System;
-using System.Drawing;
-namespace NewTututialEncyklopedia.Classes;
-
+﻿namespace Encyclopedia.ClassesExamples;
 
 public class EnumPolymorphAlien
 {
