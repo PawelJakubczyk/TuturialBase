@@ -1,5 +1,5 @@
 ﻿//MUSI BYC STATYCZNA DLA METOD ROZSZERZAJĄCYCH
-using NewTututial.Classes;
+using NewTututialEncyklopedia.Classes;
 // Extension Classess must be static must expnd sttic class and use this keyword
 public static class PlayerExtension
 {

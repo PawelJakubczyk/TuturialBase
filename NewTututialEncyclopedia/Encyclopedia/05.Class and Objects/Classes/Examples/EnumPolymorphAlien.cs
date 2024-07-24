@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Drawing;
-namespace NewTututial.Classes;
+namespace NewTututialEncyklopedia.Classes;
 
 
 public class EnumPolymorphAlien

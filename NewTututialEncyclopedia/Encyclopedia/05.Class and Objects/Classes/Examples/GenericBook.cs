@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewTututial.Classes;
+namespace NewTututialEncyklopedia.Classes;
 
 
 internal class GenericBook<T>

@@ -3,7 +3,7 @@ using MongoDB.Driver;
 using TutorialRestaurantApi.Entities;
 using TuturialRestaurantApi.Data;
 
-namespace 
+namespace TutorialRestaurantApi.Features.Restaurants;
 
 public sealed class GetAllRestaurantQueryHandler : IRequestHandler<GetAllRestaurantQuery, Restaurant>
 {

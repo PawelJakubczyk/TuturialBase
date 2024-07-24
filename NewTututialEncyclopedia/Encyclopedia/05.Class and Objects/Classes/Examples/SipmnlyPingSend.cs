@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.NetworkInformation;
 
-namespace NewTututial.Classes;
+namespace NewTututialEncyklopedia.Classes;
 internal class SipmnlyPingSend
 {
     private readonly Ping _pingSender = new();

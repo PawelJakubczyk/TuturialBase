@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewTututial.MethodsExample;
+namespace NewTututialEncyklopedia.MethodsExample;
 
 
 public abstract class AbstaractClass

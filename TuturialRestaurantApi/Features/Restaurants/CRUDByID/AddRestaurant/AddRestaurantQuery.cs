@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using TutorialRestaurantApi.Entities;
 
-namespace TutorialRestaurantApi.Features.Restaurant;
+namespace TutorialRestaurantApi.Features.Restaurants;
 
 public sealed record AddRestaurantQuery(string Id) : IRequest<string>;

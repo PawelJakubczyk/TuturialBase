@@ -1,5 +1,5 @@
 ﻿using Classes.ConstructorPerson;
-using NewTututial.Classes;
+using NewTututialEncyklopedia.Classes;
 
 using System.Text;
 using System.Net.NetworkInformation;
