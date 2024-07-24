@@ -1,4 +1,4 @@
-﻿namespace NewTututial.FourFilars;
+﻿namespace NewTututialEncyklopedia.FourFilars;
 
 // Abstract Class Example
 public abstract class Shape

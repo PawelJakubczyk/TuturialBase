@@ -1,4 +1,4 @@
-﻿namespace NewTututial.Types;
+﻿namespace NewTututialEncyklopedia.Types;
 using System.Numerics;
 
 

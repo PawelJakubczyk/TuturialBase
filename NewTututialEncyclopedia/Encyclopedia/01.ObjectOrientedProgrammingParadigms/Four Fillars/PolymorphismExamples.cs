@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using System.Numerics;
 
-namespace NewTututial.FourFilars;
+namespace NewTututialEncyklopedia.FourFilars;
 
 // Abstract base class
 public abstract class Employee

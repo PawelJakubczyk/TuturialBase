@@ -1,4 +1,4 @@
-﻿namespace NewTututial.FourFilars;
+﻿namespace NewTututialEncyklopedia.FourFilars;
 
 public sealed class InheritanceExamples
 {

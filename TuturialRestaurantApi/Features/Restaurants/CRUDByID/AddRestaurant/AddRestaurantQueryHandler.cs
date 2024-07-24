@@ -1,8 +1,6 @@
 ﻿using MediatR;
-using MongoDB.Driver;
-using System.Threading;
 using TutorialRestaurantApi.Entities;
-using TuturialRestaurantApi.Features.Restaurants.CRUDByID.GetById;
+using TutorialRestaurantApi.Features.Restaurants;
 using TuturialRestaurantApi.Data;
 
 namespace TuturialRestaurantApi.Features.Restaurants.CRUDByID.AddRestaurant;

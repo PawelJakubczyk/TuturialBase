@@ -58,7 +58,7 @@ mokowanie servis
 Web API(Aplication Programing Interface) - tylko beckend
 Aplikacja webowa - c³oœæ
 
-Web API
+Web API Test
 Smoke Test
 Spike Test
 Stress Test
@@ -80,5 +80,9 @@ Waterfall
 
 Cean Architectur
 DDD
+
+Ró¿nica miêdzy throw a throw exception?
+
+tym generyczny bez pametrowy konstruktor jest referencyjnym typem nie jest nullem 
 
 

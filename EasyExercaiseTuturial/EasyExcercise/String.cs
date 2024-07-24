@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NewTututial.EasyExcercise;
+namespace NewTututialEncyklopedia.EasyExcercise;
 
 class DeclaringAndInitializingOfStrings
 {

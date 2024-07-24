@@ -1,23 +1,23 @@
-Nkapsupizcja/Hermetyzacja
+ï»¿Nkapsupizcja/Hermetyzacja
 
-Modyfikatory dostêpu okreœlaj¹ widocznoœæ metody dla innych klas i obiektów.
+Modyfikatory dostÄ™pu okreÅ›lajÄ… widocznoÅ›Ä‡ metody dla innych klas i obiektÃ³w.
 
-- `public`: Metoda jest dostêpna z ka¿dego miejsca.
-- `protected`: Metoda jest dostêpna w tej samej klasie i w klasach dziedzicz¹cych.
-- `private`: Metoda jest dostêpna tylko w obrêbie tej samej klasy.
-- `internal`: Metoda jest dostêpna tylko w tym samym zestawie (assembly).
-- `file` :
-- `protected internal`: Metoda jest dostêpna w tym samym zestawie i w klasach dziedzicz¹cych.
-- `private protected`: Metoda jest dostêpna w tej samej klasie i w klasach dziedzicz¹cych, ale tylko w obrêbie tego samego zestawu (assembly).
+- `public`: Metoda jest dostÄ™pna z kaÅ¼dego miejsca.
+- `protected`: Metoda jest dostÄ™pna w tej samej klasie i w klasach dziedziczÄ…cych.
+- `private`: Metoda jest dostÄ™pna tylko w obrÄ™bie tej samej klasy.
+- `internal`: Metoda jest dostÄ™pna tylko w tym samym zestawie (assembly).
+- `file` : Metoda jest dostÄ™pna w obrÄ™bie pliku
+- `protected internal`: Metoda jest dostÄ™pna w tym samym zestawie i w klasach dziedziczÄ…cych.
+- `private protected`: Metoda jest dostÄ™pna w tej samej klasie i w klasach dziedziczÄ…cych, ale tylko w obrÄ™bie tego samego zestawu (assembly).
 
 
-### 1. Typy najwy¿szego poziomu
+### 1. Typy najwyÅ¼szego poziomu
 **(klasy, interfejsy, struktury, delegaty)**:
 - `public`
-- `internal` (Brak modyfikatora - domyœlnie)
+- `internal` (Brak modyfikatora - domyÅ›lnie)
 
-### 2. Elementy cz³onkowskie klas i struktur
-**(pola, w³aœciwoœci, metody, konstruktory)**:
+### 2. Elementy czÅ‚onkowskie klas i struktur
+**(pola, wÅ‚aÅ›ciwoÅ›ci, metody, konstruktory)**:
 - `public`
 - `protected`
 - `private`
@@ -25,11 +25,11 @@ Modyfikatory dostêpu okreœlaj¹ widocznoœæ metody dla innych klas i obiektów.
 - `protected internal`
 - `private protected`
 
-### 3. Elementy cz³onkowskie interfejsów
-- `public` (nie mo¿na jawnie okreœliæ modyfikatora dostêpu)
+### 3. Elementy czÅ‚onkowskie interfejsÃ³w
+- `public` (nie moÅ¼na jawnie okreÅ›liÄ‡ modyfikatora dostÄ™pu)
 
-### 4. Typy zagnie¿d¿one
-**(klasy, struktury, interfejsy zagnie¿d¿one)**:
+### 4. Typy zagnieÅ¼dÅ¼one
+**(klasy, struktury, interfejsy zagnieÅ¼dÅ¼one)**:
 - `public`
 - `protected`
 - `private`
@@ -38,3 +38,11 @@ Modyfikatory dostêpu okreœlaj¹ widocznoœæ metody dla innych klas i obiektów.
 - `private protected`
 
 
+
+| Caller Location                     | public | protected internal | protected | internal | private protected | private |
+|-------------------------------------|--------|---------------------|-----------|----------|--------------------|---------|
+| Within class (<span style="color:green">same assembly</span>)     |   âœ“    |          âœ“          |     âœ“     |     âœ“    |         âœ“          |    âœ“    |
+| Derived class (<span style="color:green">same assembly</span>)    |   âœ“    |          âœ“          |     âœ“     |     âœ—    |         âœ—          |    âœ—    |
+| Non-derived class (<span style="color:green">same assembly</span>)|   âœ“    |          âœ—          |     âœ—     |     âœ“    |         âœ—          |    âœ—    |
+| Derived class (<span style="color:red">different assembly</span>) |   âœ“    |          âœ“          |     âœ“     |     âœ—    |         âœ—          |    âœ—    |
+| Non-derived class (<span style="color:red">different assembly</span>)|  âœ“   |          âœ—          |     âœ—     |     âœ—    |         âœ—          |    âœ—    |

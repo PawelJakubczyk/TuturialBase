@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace NewTututial.Classes.Examples;
+namespace NewTututialEncyklopedia.Classes.ExtensionClasses;
 
 public static class StringExtensions
 {
@@ -32,3 +32,19 @@ public static class EnumerableExtensions
         }
     }
 }
+
+public static class ArrayExtensions
+{
+    public static TType[]? ChangeBaseElement<TType>(this TType[] sourceArray, TType? input)
+    {
+        int size = sourceArray.Length;
+
+        for (int i = 0; i < size; i++)
+        {
+            sourceArray[i] = input;
+        }
+
+        return sourceArray;
+    }
+}
+

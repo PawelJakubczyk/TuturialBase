@@ -22,10 +22,7 @@
     <Folder Include="Encyclopedia\14.Refleksion\" />
     <Folder Include="Encyclopedia\06.Memory\BoxingAndUnboxing\" />
     <Folder Include="Encyclopedia\19.Debuger\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\EasyExercaiseTuturial\EasyExercaiseTuturial.csproj" />
+    <Folder Include="TestEncyklopedia\" />
   </ItemGroup>
 
 </Project>
