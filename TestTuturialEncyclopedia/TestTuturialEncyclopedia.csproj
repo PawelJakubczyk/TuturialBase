@@ -18,11 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <ProjectReference Include="..\TuturialEncyclopedia\TuturialEncyclopedia.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-	<ProjectReference Include="..\NewTututialEncyclopedia\NewTututialEncyclopedia.csproj" />
+    <Using Include="Xunit" />
   </ItemGroup>
 	
 </Project>

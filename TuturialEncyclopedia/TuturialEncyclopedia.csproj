@@ -27,7 +27,6 @@
     <Folder Include="Encyclopedia\19.Debuger\" />
     <Folder Include="Encyclopedia\14.Refleksion\" />
     <Folder Include="Encyclopedia\19.Debuger\" />
-    <Folder Include="TestEncyklopedia\" />
   </ItemGroup>
 
 </Project>
