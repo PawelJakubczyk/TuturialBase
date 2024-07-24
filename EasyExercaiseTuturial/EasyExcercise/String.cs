@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace NewTututialEncyklopedia.EasyExcercise;
+﻿namespace Exercise.EasyExcercise;
 
 class DeclaringAndInitializingOfStrings
 {

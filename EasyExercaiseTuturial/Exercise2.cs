@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EasyExercaiseTuturial
+namespace Exercise;
+
+internal class Exercise2
 {
-    internal class Exercise2
-    {
-    }
 }

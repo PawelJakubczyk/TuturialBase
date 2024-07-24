@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewTututialEncyklopedia._1.Encyclopedia.Basic.CorePrinciples.Solid
+namespace Encyclopedia.Principles.SOLIDExamples;
+
+internal class SOLID
 {
-    internal class SOLID
-    {
-    }
 }

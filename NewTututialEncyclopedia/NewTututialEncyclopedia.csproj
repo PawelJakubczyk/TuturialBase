@@ -19,8 +19,13 @@
     <Folder Include="ASP.Encyklopedia\20.ASP\" />
     <Folder Include="Encyclopedia\02.Programing Principles\04.KISS\" />
     <Folder Include="Encyclopedia\02.Programing Principles\05.YAGNI\" />
+    <Folder Include="Encyclopedia\02.Programing Principles\04.KISS\" />
+    <Folder Include="Encyclopedia\02.Programing Principles\05.YAGNI\" />
+    <Folder Include="Encyclopedia\06.Memory\BoxingAndUnboxing\" />
     <Folder Include="Encyclopedia\14.Refleksion\" />
     <Folder Include="Encyclopedia\06.Memory\BoxingAndUnboxing\" />
+    <Folder Include="Encyclopedia\19.Debuger\" />
+    <Folder Include="Encyclopedia\14.Refleksion\" />
     <Folder Include="Encyclopedia\19.Debuger\" />
     <Folder Include="TestEncyklopedia\" />
   </ItemGroup>

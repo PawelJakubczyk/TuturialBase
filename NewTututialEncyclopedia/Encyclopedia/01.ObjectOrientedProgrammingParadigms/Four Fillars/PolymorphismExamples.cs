@@ -1,7 +1,6 @@
-﻿using System.Drawing;
-using System.Numerics;
+﻿using System.Numerics;
 
-namespace NewTututialEncyklopedia.FourFilars;
+namespace Encyclopedia.OOP.FourFilarsExamples;
 
 // Abstract base class
 public abstract class Employee
@@ -31,14 +30,14 @@ public class Manager : Employee
 //Exaple of Polimorphism data type of Jack and Hanna are Employee but they are Developer and Manager objects
 
 public class Example
-    {
+{
     private Employee Jack = new Developer();
     private Employee Hanna = new Manager();
-    }
+}
 
 //Inherit Class Polimorphizm
 public class Measure
-    {
+{
     private INumber<decimal> RiseGrainMeasure = 0.1m;
     private INumber<double> HeliumAtomMeasure = 0.000000000000023;
     private INumber<int> PlainMeasure = 140;
@@ -80,6 +79,4 @@ public class ColorClient
 
 public class FillWithBlue
 {
-
 }
-

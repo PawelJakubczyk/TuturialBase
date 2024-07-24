@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NewTututialEncyklopedia.MethodsExample;
-
+﻿namespace Encyclopedia.MethodsExamples;
 
 public abstract class AbstaractClass
 {
@@ -13,7 +6,7 @@ public abstract class AbstaractClass
     {
         Console.WriteLine("This is a method to be overridden.");
     }
-    
+
     public virtual void SealedOverrideMethod()
     {
         Console.WriteLine("This is a method to be overridden and seled.");
@@ -53,7 +46,7 @@ public sealed class MethodsExample : AbstaractClass
     }
 
     // Private protected method
-    private protected void PrivateProtectedMethod()
+    protected void PrivateProtectedMethod()
     {
         Console.WriteLine("This is a private protected method. Accessible within the same assembly and derived classes.");
     }
@@ -71,7 +64,7 @@ public sealed class MethodsExample : AbstaractClass
     }
 
     // Sealed override method
-    public sealed override void SealedOverrideMethod()
+    public override sealed void SealedOverrideMethod()
     {
         Console.WriteLine("This is a sealed overridden method. Prevents further overriding in derived classes.");
     }

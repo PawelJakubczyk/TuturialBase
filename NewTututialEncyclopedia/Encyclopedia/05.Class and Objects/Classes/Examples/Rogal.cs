@@ -1,15 +1,16 @@
-﻿namespace TeddySmithTuturial.Classes.Rogale;
+﻿namespace Encyclopedia.ClassesExamples;
 
 public abstract class RogalBase
 {
     protected RogalBase()
     {
         Console.WriteLine("I am base coonstructor");
-    } 
+    }
+
     protected RogalBase(string roroor)
     {
         Console.WriteLine($"I am base coonstructor {roroor}");
-    } 
+    }
 
     public virtual void Hehe()
     {
@@ -19,14 +20,14 @@ public abstract class RogalBase
     public abstract void Hehe2();
 }
 
-
 public interface IRogalRepository
 {
     void Insert(Rogal rogal);
+
     void Update(Rogal rogal);
+
     void GetById(int rogalId);
 }
-
 
 public interface IGoTo
 {
@@ -74,7 +75,7 @@ public class Rogal : RogalBase
         Console.WriteLine("dfdf");
     }
 
-    public Rogal(string ddd) : base() 
+    public Rogal(string ddd) : base()
     {
         Console.WriteLine(ddd);
     }
@@ -85,26 +86,25 @@ public class Rogal : RogalBase
         base.Hehe();
     }
 
-    private protected string HoloMolo(string momom, int bca = 11, int abc = 34, string message = "Hello") //PROTECTED AND INTERNAL
+    protected string HoloMolo(string momom, int bca = 11, int abc = 34, string message = "Hello") //PROTECTED AND INTERNAL
     {
         return $"{nameof(HoloMolo)}: {message}";
     }
 
-    private protected string CzaroParams(int f, params string[] inputs) //PROTECTED AND INTERNAL
-    {
-        return $"{nameof(HoloMolo)}";
-    }
-    
-    private protected string CzaroArray(string[] inputs) //PROTECTED AND INTERNAL
+    protected string CzaroParams(int f, params string[] inputs) //PROTECTED AND INTERNAL
     {
         return $"{nameof(HoloMolo)}";
     }
 
-    private protected string GoToGym(int hhehe) //PROTECTED AND INTERNAL
+    protected string CzaroArray(string[] inputs) //PROTECTED AND INTERNAL
+    {
+        return $"{nameof(HoloMolo)}";
+    }
+
+    protected string GoToGym(int hhehe) //PROTECTED AND INTERNAL
     {
         CzaroArray(["sddS", "dsfsdfds", "dfsdfs"]);
         CzaroParams(4, inputs: ["dfds", "sdfdfs", "dsfsd"]);
-
 
         return "hehe" + hhehe.ToString();
     }

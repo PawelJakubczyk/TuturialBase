@@ -1,4 +1,5 @@
-﻿namespace NewTututialEncyclopedia.Encyclopedia._12.Yield
+﻿namespace Encyclopedia.YieldExamples
+
 {
     internal class YieldExamples
     {

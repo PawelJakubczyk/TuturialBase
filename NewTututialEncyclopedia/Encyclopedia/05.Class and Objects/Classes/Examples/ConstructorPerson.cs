@@ -1,4 +1,4 @@
-﻿namespace Classes.ConstructorPerson;
+﻿namespace Encyclopedia.ClassesExamples;
 
 public class ConstructorPerson
 {

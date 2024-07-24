@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NewTututialEncyklopedia.Classes.ExtensionClasses;
+﻿using Encyclopedia.ClassesExamples;
 using FluentAssertions;
 
-namespace Test.NewTututialEncyclopedia.Test.Encyklopedia.Test._05.Class_and_Objects.Test.ExtensionClasses;
+namespace TestEncyklopedia.TestClassesExamples;
 
 public class TestExtensionMethod
 {

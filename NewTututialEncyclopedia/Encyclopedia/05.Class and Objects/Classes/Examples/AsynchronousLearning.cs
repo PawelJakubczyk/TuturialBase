@@ -1,5 +1,4 @@
-﻿
-namespace TeddySmithTuturial.Classes;
+﻿namespace Encyclopedia.ClassesExamples;
 
 public sealed class AsynchronousLearning
 {
@@ -19,7 +18,6 @@ public sealed class AsynchronousLearning
             Console.WriteLine("fgdsfsdfs");
             return;
         }
-
 
         Console.WriteLine("oppppppppppppppppppp");
     }

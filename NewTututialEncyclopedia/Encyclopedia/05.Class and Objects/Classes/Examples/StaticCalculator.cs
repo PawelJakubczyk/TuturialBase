@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
-namespace TeddySmithTuturial;
 
+namespace Encyclopedia.ClassesExamples;
 
 // Calculator class inheriting from CalculatorBase
 public sealed class StaticCalculator

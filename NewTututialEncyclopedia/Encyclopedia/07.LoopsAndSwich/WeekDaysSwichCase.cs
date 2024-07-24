@@ -1,4 +1,4 @@
-﻿
+﻿namespace Encyclopedia.LoopsAndSwich;
 
 public enum Days
 {
@@ -13,7 +13,8 @@ public enum Days
 
 public class WeekDaysSwichCase
 {
-    string message;
+    private string message;
+
     public string GetDayMessage(Days day)
     {
         switch (day)
@@ -21,24 +22,31 @@ public class WeekDaysSwichCase
             case Days.Sunday:
                 message = "Relax, it's Sunday!";
                 break;
+
             case Days.Monday:
                 message = "Back to work, it's Monday.";
                 break;
+
             case Days.Tuesday:
                 message = "It's Tuesday, keep going!";
                 break;
+
             case Days.Wednesday:
                 message = "Halfway there, it's Wednesday.";
                 break;
+
             case Days.Thursday:
                 message = "Almost the weekend, it's Thursday.";
                 break;
+
             case Days.Friday:
                 message = "It's Friday, weekend is near!";
                 break;
+
             case Days.Saturday:
                 message = "Enjoy your Saturday!";
                 break;
+
             default:
                 message = "Invalid day!";
                 break;

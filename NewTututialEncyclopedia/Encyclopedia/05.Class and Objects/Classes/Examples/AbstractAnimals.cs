@@ -1,4 +1,4 @@
-﻿namespace TeddySmithTuturial.Classes;
+﻿namespace Encyclopedia.ClassesExamples;
 
 public abstract class AbstractAnimal
 {
@@ -9,7 +9,6 @@ public abstract class AbstractAnimal
         Console.WriteLine("The animal moves.");
     }
 }
-
 
 public class AbstractDog : AbstractAnimal
 {
@@ -26,7 +25,6 @@ public class AbstractCat : AbstractAnimal
         Console.WriteLine("The cat meows: Meow! Meow!");
     }
 }
-
 
 //class Program
 //{
