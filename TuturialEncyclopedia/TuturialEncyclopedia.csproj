@@ -8,23 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Encyclopedia\06.Memory\HipAndStack.md" />
+    <None Remove="C#.Encyclopedia\06.Memory\HipAndStack.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Encyclopedia\06.Memory\HipAndStack.md" />
+    <Compile Include="C#.Encyclopedia\06.Memory\HipAndStack.md" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="ASP.Encyklopedia\20.ASP\" />
     <Folder Include="Encyclopedia\02.Programing Principles\04.KISS\" />
     <Folder Include="Encyclopedia\02.Programing Principles\05.YAGNI\" />
-    <Folder Include="Encyclopedia\02.Programing Principles\04.KISS\" />
-    <Folder Include="Encyclopedia\02.Programing Principles\05.YAGNI\" />
     <Folder Include="Encyclopedia\06.Memory\BoxingAndUnboxing\" />
-    <Folder Include="Encyclopedia\14.Refleksion\" />
-    <Folder Include="Encyclopedia\06.Memory\BoxingAndUnboxing\" />
-    <Folder Include="Encyclopedia\19.Debuger\" />
     <Folder Include="Encyclopedia\14.Refleksion\" />
     <Folder Include="Encyclopedia\19.Debuger\" />
   </ItemGroup>

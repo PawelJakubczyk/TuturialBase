@@ -13,7 +13,7 @@ public abstract class AbstaractClass
     }
 }
 
-public sealed class MethodsExample : AbstaractClass
+public sealed class MethodsExamples : AbstaractClass
 {
     // Public method
     public void PublicMethod()

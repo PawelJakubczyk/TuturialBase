@@ -1,5 +1,4 @@
-﻿Oczywiście! Oto przedstawienie informacji o typach wartości i typach referencji w C# w formacie Markdown:
-
+﻿
 ---
 
 ## Typy wartości i typy referencji w C#
@@ -36,7 +35,7 @@ Typy wartości są przechowywane bezpośrednio w stosie pamięci (stack) i przec
 
 ### Typy referencji (Reference Types)
 
-Typy referencji są przechowywane na stercie (heap) i przechowują odniesienie (adres) do rzeczywistej wartości. Kiedy przypisujesz typ referencji do innej zmiennej, kopiowany jest tylko adres, a nie sama wartość.
+Typy referencji są przechowywane na stercie (heap) i przechowują odniesienie (adres) do rzeczywistej wartości na stosie (hip). Kiedy przypisujesz typ referencji do innej zmiennej, kopiowany jest tylko adres, a nie sama wartość.
 
 #### Przykłady typów referencji:
 
@@ -82,4 +81,12 @@ Typy referencji są przechowywane na stercie (heap) i przechowują odniesienie (
 
 ---
 
-Mam nadzieję, że to przedstawienie informacji w formacie Markdown jest pomocne!
+**Garbage Collection (GC)**:
+    - **Definicja**: Garbage Collection to automatyczny proces zarządzania pamięcią, który usuwa nieużywane obiekty z pamięci, aby zwolnić zasoby.
+    - **Przykład**:
+      ```csharp
+      // Wywołanie garbage collection
+      GC.Collect();
+      ```
+
+
