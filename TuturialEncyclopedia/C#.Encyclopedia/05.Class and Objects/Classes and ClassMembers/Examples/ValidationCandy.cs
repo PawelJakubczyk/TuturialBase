@@ -20,10 +20,7 @@ public sealed class ValidationCandy
             {
                 candyType = value;
             }
-            else
-            {
-                throw new ArgumentException("Invalid candy type.");
-            }
+            throw new ArgumentException("Invalid candy type.");
         }
     }
 

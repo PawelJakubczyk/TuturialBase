@@ -22,9 +22,11 @@ generyczny interfejs
 
 Mediator
 
-Asembly(monta¿)
+Asembly(zestaw)
 
 ref out
+
+instancja - Instancj¹ nazywamy konkretny obiekt utworzony na podstawie klasy.
 
 refleksja
 
@@ -86,3 +88,4 @@ Ró¿nica miêdzy throw a throw exception?
 tym generyczny bez pametrowy konstruktor jest referencyjnym typem nie jest nullem 
 
 
+moglbys daæ metodê rozszerzaj¹c¹ na inta nazywaj¹c¹ siê "public static bool InRange(this int input, int start, int end)" albo cos takiego

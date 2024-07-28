@@ -1,4 +1,4 @@
-﻿namespace Encyclopedia.ClassesExamples;
+﻿namespace Encyclopedia.MethodsExamples;
 
 public static class PlayerExtension
 {

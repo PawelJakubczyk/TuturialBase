@@ -1,0 +1,18 @@
+Servis - 
+
+Singleton - jest storzony raz [je¿eli obiekt siê nie zmienia lub nie przechowuje stanu]
+Trindient - za ka¿dym razem nowy
+Scope - jest stworzony raz na dany scope
+
+SingletonPatern - 
+Strategy Patern - bechawioral odnoœnie zachowañ ncapsuluje logike w zael¿noœci od sposobu oddaje realizacje
+Bilder patern* - buduje jeden obiekt tworzenie obiektu
+
+Resoult pattern
+Mediator Pattern
+
+Mediator pattern weze³ g³ówny który rozsy³a ruch 
+notyfikacja obs³uguje wiele handlerów
+
+Domen Event
+Integration Event

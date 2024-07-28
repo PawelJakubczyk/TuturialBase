@@ -1,30 +1,4 @@
-1. **Klasa (Class)**:
-   - **Definicja**: Klasa w C# to definicja obiektu zawieraj¹ca w³aœciwoœci, metody i wydarzenia. Klasa jest schematem, na podstawie którego tworzone s¹ obiekty.
-   - **Przyk³ad**:
-     ```csharp
-     public class Samochod
-     {
-         public string Marka { get; set; }
-         public int RokProdukcji { get; set; }
-
-         public void Uruchom()
-         {
-             Console.WriteLine("Samochód uruchomiony");
-         }
-     }
-     ```
-
-2. **Obiekt (Object)**:
-   - **Definicja**: Obiekt to instancja klasy. Obiekty s¹ tworzone na podstawie definicji klasy i mog¹ mieæ w³asne wartoœci w³aœciwoœci.
-   - **Przyk³ad**:
-     ```csharp
-     Samochod mojSamochod = new Samochod();
-     mojSamochod.Marka = "Toyota";
-     mojSamochod.RokProdukcji = 2020;
-     mojSamochod.Uruchom();
-     ```
-
-3. **Dziedziczenie (Inheritance)**:
+1. **Dziedziczenie (Inheritance)**:
    - **Definicja**: Dziedziczenie pozwala jednej klasie (klasie pochodnej) dziedziczyæ w³aœciwoœci i metody innej klasy (klasy bazowej).
    - **Przyk³ad**:
      ```csharp
@@ -39,7 +13,7 @@
      }
      ```
 
-4. **Interfejs (Interface)**:
+2. **Interfejs (Interface)**:
    - **Definicja**: Interfejs definiuje zbiór metod i w³aœciwoœci, które klasa musi implementowaæ. Interfejsy zapewniaj¹ sposób na wdro¿enie wielokrotnego dziedziczenia w C#.
    - **Przyk³ad**:
      ```csharp
@@ -57,31 +31,11 @@
      }
      ```
 
-5. **Metoda (Method)**:
-   - **Definicja**: Metoda to funkcja zdefiniowana w klasie, która wykonuje pewne operacje na danych.
-   - **Przyk³ad**:
-     ```csharp
-     public class Kalkulator
-     {
-         public int Dodaj(int a, int b)
-         {
-             return a + b;
-         }
-     }
-     ```
 
-6. **W³aœciwoœæ (Property)**:
-   - **Definicja**: W³aœciwoœæ to mechanizm dostêpu do prywatnych pól klasy, umo¿liwiaj¹cy odczyt i zapis wartoœci.
-   - **Przyk³ad**:
-     ```csharp
-     public class Osoba
-     {
-         public string Imie { get; set; }
-         public int Wiek { get; set; }
-     }
-     ```
 
-7. **Delegat (Delegate)**:
+
+
+3. **Delegat (Delegate)**:
    - **Definicja**: Delegat to typ reprezentuj¹cy metodê z okreœlonym podpisem. Delegaty s¹ u¿ywane do definiowania metod wywo³ania zwrotnego (callback).
    - **Przyk³ad**:
      ```csharp
@@ -102,28 +56,9 @@
      }
      ```
 
-8. **Zdarzenie (Event)**:
-   - **Definicja**: Zdarzenie jest mechanizmem umo¿liwiaj¹cym powiadamianie subskrybentów (obiektów) o pewnych zdarzeniach.
-   - **Przyk³ad**:
-     ```csharp
-     public class Program
-     {
-         public delegate void Powiadomienie();
-         public event Powiadomienie OnPowiadomienie;
-
-         public void WywolajZdarzenie()
-         {
-             if (OnPowiadomienie != null)
-             {
-                 OnPowiadomienie();
-             }
-         }
-     }
-     ```
 
 
-
-17. **Indexer**:
+4. **Indexer**:
     - **Definicja**: Indexer umo¿liwia dostêp do elementów obiektu za pomoc¹ indeksów, podobnie jak w przypadku tablic.
     - **Przyk³ad**:
       ```csharp
@@ -139,7 +74,7 @@
       }
       ```
 
-18. **Extension Methods (Metody rozszerzeñ)**:
+5. **Extension Methods (Metody rozszerzeñ)**:
     - **Definicja**: Metody rozszerzeñ pozwalaj¹ na dodawanie nowych metod do istniej¹cych typów bez modyfikowania ich definicji.
     - **Przyk³ad**:
       ```csharp
@@ -161,7 +96,7 @@
       }
       ```
 
-19. **Partial Class (Klasa czêœciowa)**:
+6. **Partial Class (Klasa czêœciowa)**:
     - **Definicja**: Partial Class umo¿liwia podzia³ definicji klasy na wiele plików. Ka¿da czêœæ musi byæ oznaczona s³owem kluczowym `partial`.
     - **Przyk³ad**:
       ```csharp
@@ -176,9 +111,7 @@
       }
       ```
 
-
-
-25. **Generics (Typy generyczne)**:
+7. **Generics (Typy generyczne)**:
     - **Definicja**: Typy ogólne umo¿liwiaj¹ tworzenie klas, metod i interfejsów, które mog¹ dzia³aæ na ró¿nych typach danych, zapewniaj¹c jednoczeœnie typowanie statyczne.
     - **Przyk³ad**:
       ```csharp
@@ -200,7 +133,7 @@
       }
       ```
 
-26. **Polimorfizm (Polymorphism)**:
+8. **Polimorfizm (Polymorphism)**:
     - **Definicja**: Polimorfizm to zdolnoœæ obiektów do przyjmowania ró¿nych form. W C# mo¿na go osi¹gn¹æ poprzez dziedziczenie i implementacjê interfejsów.
     - **Przyk³ad**:
       ```csharp
@@ -230,7 +163,7 @@
       }
       ```
 
-27. **Overloading (Przeci¹¿anie)**:
+9. **Overloading (Przeci¹¿anie)**:
     - **Definicja**: Przeci¹¿anie metod to zdolnoœæ do tworzenia wielu metod o tej samej nazwie, ale ró¿nych parametrach.
     - **Przyk³ad**:
       ```csharp
@@ -249,7 +182,7 @@
       ```
 
 
-29. **Operator overloading (Przeci¹¿anie operatorów)**:
+10. **Operator overloading (Przeci¹¿anie operatorów)**:
     - **Definicja**: Przeci¹¿anie operatorów pozwala definiowaæ w³asne zachowanie dla operatorów (np. +, -, *, /) w przypadku typów zdefiniowanych przez u¿ytkownika.
     - **Przyk³ad**:
       ```csharp
@@ -265,50 +198,6 @@
       }
       ```
 
-30. **Dependency Injection (DI)**:
-    - **Definicja**: Dependency Injection to wzorzec projektowy, który polega na przekazywaniu zale¿noœci do klasy z zewn¹trz zamiast tworzenia ich wewn¹trz klasy. U³atwia testowanie i zwiêksza modularnoœæ kodu.
-    - **Przyk³ad**:
-      ```csharp
-      public interface ILogger
-      {
-          void Log(string message);
-      }
-
-      public class ConsoleLogger : ILogger
-      {
-          public void Log(string message)
-          {
-              Console.WriteLine(message);
-          }
-      }
-
-      public class Serwis
-      {
-          private readonly ILogger _logger;
-
-          public Serwis(ILogger logger)
-          {
-              _logger = logger;
-          }
-
-          public void WykonajOperacje()
-          {
-              _logger.Log("Operacja zosta³a wykonana");
-          }
-      }
-
-      public class Program
-      {
-          public static void Main()
-          {
-              ILogger logger = new ConsoleLogger();
-              Serwis serwis = new Serwis(logger);
-              serwis.WykonajOperacje();
-          }
-      }
-      ```
-
-Te pojêcia i definicje dotycz¹ zaawansowanych koncepcji i mechanizmów w jêzyku C#, które s¹ kluczowe do g³êbszego zrozumienia i tworzenia bardziej zaawansowanych aplikacji.
 
 
 

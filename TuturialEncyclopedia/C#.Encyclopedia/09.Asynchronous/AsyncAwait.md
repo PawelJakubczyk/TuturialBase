@@ -1,11 +1,8 @@
 
-
-
-
-
-15. **Asynchronicznoœæ (Asynchronous Programming)**:
+**Asynchronicznoœæ (Asynchronous Programming)**:
     - **Definicja**: Programowanie asynchroniczne pozwala na wykonywanie operacji w tle, co umo¿liwia aplikacji reagowanie na zdarzenia bez blokowania g³ównego w¹tku.
     - **Przyk³ad**:
+      
       ```csharp
       public async Task PobierzDaneAsync()
       {
@@ -15,9 +12,10 @@
       }
       ```
 
-22. **Async/Await**:
+**Async/Await**:
     - **Definicja**: S³owa kluczowe `async` i `await` umo¿liwiaj¹ wykonywanie operacji asynchronicznych w ³atwy sposób. `async` oznacza, ¿e metoda jest asynchroniczna, a `await` wskazuje, ¿e program powinien czekaæ na zakoñczenie operacji asynchronicznej przed kontynuowaniem.
     - **Przyk³ad**:
+      
       ```csharp
       public async Task PrzykladAsync()
       {

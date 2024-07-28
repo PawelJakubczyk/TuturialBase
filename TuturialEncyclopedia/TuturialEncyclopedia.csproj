@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="ASP.Encyklopedia\20.ASP\" />
+    <Folder Include="VS.Encyclopedia\" />
     <Folder Include="Encyclopedia\02.Programing Principles\04.KISS\" />
     <Folder Include="Encyclopedia\02.Programing Principles\05.YAGNI\" />
     <Folder Include="Encyclopedia\06.Memory\BoxingAndUnboxing\" />
