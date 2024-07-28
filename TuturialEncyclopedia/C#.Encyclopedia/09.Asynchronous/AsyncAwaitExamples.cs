@@ -7,6 +7,7 @@ public class AsyncAwaitExamples
         await Task.Delay(3000); // simulate some async work
         return "Async work 1 completed";
     }
+
     public async Task<string> DoAsyncWork2()
     {
         await Task.Delay(1000); // simulate some async work
@@ -23,12 +24,12 @@ public class AsyncAwaitExamples
     {
         await Task.Run(DoAsyncWork); // call the async method and wait for it to complete
     }
-    
+
     public async Task StartAsyncWorkWithDelay()
-    {   await Task.Delay(500);
+    {
+        await Task.Delay(500);
         await Task.Run(DoAsyncWork); // call the async method and wait for it to complete
     }
-
 
     public async Task DoAsyncWorkAny()
     {

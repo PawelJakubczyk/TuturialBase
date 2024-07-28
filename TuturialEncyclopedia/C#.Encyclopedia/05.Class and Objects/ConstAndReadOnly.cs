@@ -1,4 +1,7 @@
-﻿namespace Encyclopedia.ClassesExamples;
+﻿using System.Globalization;
+using System.Net.NetworkInformation;
+
+namespace Encyclopedia.ClassesExamples;
 
 internal class ConstAndReadOnly
 {
@@ -26,4 +29,29 @@ public class ReadOnlyExamples
     {
         DefaultGreeting = "Welcome!";
     }
+
+    public static void Execute()
+    {
+        List<string> games =
+        [
+            "Valheim",
+            "Yakuza"
+        ];
+
+        var result = GetRogals(games);
+        var result2 = GetRogals(["Valheim", "Yakuza"]);
+        var result32 = GetRogals2("Valheim", "Yakuza", "dfsd");
+
+    }
+
+    public static string GetRogals(List<string> games)
+    {
+        return string.Join(' ', games);
+    }
+
+    public static string GetRogals2(params string[] games)
+    {
+        return string.Join(' ', games);
+    }
 }
+

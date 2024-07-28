@@ -8,17 +8,16 @@ namespace TuturialRestaurantApi.Features.Restaurants.CRUDByID.AddRestaurant;
 public sealed class AddRestaurantQueryHandler : IRequestHandler<AddRestaurantQuery, string>
 {
     private readonly IRestaurantContext _restaurantContext;
-    private readonly Restaurant _newRestaurant;
 
-    public AddRestaurantQueryHandler(IRestaurantContext restaurantContext, Restaurant newRestaurant)
+    public AddRestaurantQueryHandler(IRestaurantContext restaurantContext)
     {
         _restaurantContext = restaurantContext;
-        _newRestaurant = newRestaurant;
     }
 
     public async Task<string> Handle(AddRestaurantQuery query, CancellationToken cancellationToken)
     {
-        await _restaurantContext.Restaurants.InsertOneAsync(_newRestaurant);
-        return query.ToString();
+        throw new NotImplementedException();
+        //await _restaurantContext.Restaurants.InsertOneAsync(_newRestaurant);
+        //return query.ToString();
     }
 }

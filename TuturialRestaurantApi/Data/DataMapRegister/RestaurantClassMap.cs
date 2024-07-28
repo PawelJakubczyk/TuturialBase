@@ -6,6 +6,7 @@ using TutorialRestaurantApi.Entities;
 
 namespace TuturialRestaurantApi.Data;
 
+// Registering a class for mapping for the EntitiesRestaurant class
 public static class RestaurantClassMap
 {
     public static void Register()

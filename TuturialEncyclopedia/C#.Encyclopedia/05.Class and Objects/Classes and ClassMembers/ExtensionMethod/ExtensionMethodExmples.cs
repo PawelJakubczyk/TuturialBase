@@ -4,6 +4,10 @@ public static class StringExtensions
 {
     public static string Reverse(this string input)
     {
+        if (string.IsNullOrEmpty(input))
+        { 
+            return input; 
+        }
         char[] chars = input.ToCharArray();
         Array.Reverse(chars);
         return new string(chars);
