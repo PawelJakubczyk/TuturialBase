@@ -1,5 +1,5 @@
-internal classes
-identifiers
+
+identyfikator(identifier) - nazwa obiektu
 
 Marker Interface
 Ewolutionary Interface
@@ -89,3 +89,27 @@ tym generyczny bez pametrowy konstruktor jest referencyjnym typem nie jest nulle
 
 
 moglbys daæ metodê rozszerzaj¹c¹ na inta nazywaj¹c¹ siê "public static bool InRange(this int input, int start, int end)" albo cos takiego
+
+Argument
+
+Atrybut
+Dekorator
+Wrapuje otacza 
+
+endpoint
+
+event
+
+tranzkcja
+
+Midleware 
+Error handler
+Decorator
+
+Encja
+HTTP Context
+
+Command
+Qery 
+
+REST - standard który wyznacza sposób projektowania adresy powinny byæ samo wystarczalne wzglêdem akcji

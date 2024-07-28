@@ -17,12 +17,17 @@
 
   <ItemGroup>
     <Folder Include="ASP.Encyklopedia\20.ASP\" />
+    <Folder Include="C#.Encyclopedia\04.Operators\" />
     <Folder Include="VS.Encyclopedia\" />
     <Folder Include="Encyclopedia\02.Programing Principles\04.KISS\" />
     <Folder Include="Encyclopedia\02.Programing Principles\05.YAGNI\" />
     <Folder Include="Encyclopedia\06.Memory\BoxingAndUnboxing\" />
     <Folder Include="Encyclopedia\14.Refleksion\" />
     <Folder Include="Encyclopedia\19.Debuger\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
 </Project>

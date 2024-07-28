@@ -5,6 +5,7 @@ using TutorialRestaurantApi.Entities;
 
 namespace TuturialRestaurantApi.Data;
 
+// Registering a class for the Entities/Dish class and mapping registration for Address and Dish
 public static class DishClassMap
 {
     public static void Register()

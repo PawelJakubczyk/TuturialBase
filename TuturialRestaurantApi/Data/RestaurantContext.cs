@@ -22,3 +22,15 @@ public class RestaurantContext : IRestaurantContext
 
     public IMongoCollection<Restaurant> Restaurants { get; }
 }
+
+
+class MyProgram
+{
+    public void Execute()
+    {
+        var rogal = new Rogal();
+
+        rogal.RequestPipeline([rogal.LogMe, rogal.PlayYkuza], rogal.ProcessRequest);
+    }
+}
+

@@ -1,5 +1,6 @@
 using TutorialWebApi.Services;
 using TuturialRestaurantApi.Data;
+using TuturialRestaurantApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,12 +8,20 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Register application services
 builder.Services.AddSingleton<IRestaurantContext, RestaurantContext>();
 builder.Services.AddScoped<RestaurantService>();
+
+// Register MediatR services
 builder.Services.AddMediatR(options =>
 {
     options.RegisterServicesFromAssembly(typeof(Program).Assembly);
 });
+
+// Register custom middleware as a scoped service
+builder.Services.AddScoped<ErrorHandlingMiddleware>();
+builder.Services.AddScoped<ErrorHandlingMiddleware2>();
 
 var app = builder.Build();
 
@@ -23,10 +32,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Use HTTPS redirection middleware
 app.UseHttpsRedirection();
 
+// Use authorization middleware
 app.UseAuthorization();
 
+// Use custom error handling middleware
+app.UseMiddleware<ErrorHandlingMiddleware>();
+app.UseMiddleware<ErrorHandlingMiddleware2>();
+
+// Map controllers to the pipeline
 app.MapControllers();
 
 app.Run();

@@ -3,7 +3,7 @@ using TutorialRestaurantApi.Entities;
 
 namespace TuturialRestaurantApi.Data;
 
-
+// Registering a class for mapping for the Entities/Address class
 public static class AddressClassMap
 {
     public static void Register()
