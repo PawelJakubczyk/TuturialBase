@@ -16,3 +16,8 @@ notyfikacja obs³uguje wiele handlerów
 
 Domen Event
 Integration Event
+
+
+Serwisy to specjaliœci wykonuj¹cy konkretne zadania.
+Kontrolery to gospodarze zarz¹dzaj¹cy ¿¹daniami u¿ytkowników i przekazuj¹cy je do odpowiednich serwisów.
+Mediatory to mened¿erowie koordynuj¹cy wspó³pracê miêdzy ró¿nymi serwisami, gdy zadanie wymaga wspó³pracy wielu specjalistów.

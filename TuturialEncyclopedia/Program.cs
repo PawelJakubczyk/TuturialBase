@@ -1,21 +1,31 @@
 ﻿using Encyclopedia.ClassesExamples.ClassMembers;
+using Encyclopedia.MemmoryExamples;
 
-WeekDaysIndexerExample example = new WeekDaysIndexerExample();
 
-// Pobieranie wartości za pomocą indeksu
-for (int i = 0; i < 7; i++)
+// Dodanie elementów bez użycia "using"
+var example1 = new DisableExample();
+example1.AddExpentiationToList(2);
+Console.WriteLine(string.Join(", ", DisableExample.exponentiationList));
+
+// Dodanie elementów w bloku "using"
+using (var example2 = new DisableExample())
 {
-    Console.WriteLine($"Day {i}: {example[i]}");
+    example2.AddExpentiationToList(6);
+    Console.WriteLine(string.Join(", ", DisableExample.exponentiationList));
 }
 
-// Pobieranie wartości za pomocą indeksu większego niż 7
-Console.WriteLine($"Day 10: {example[10]}");
+// Sprawdź listę po zakończeniu bloku "using"
+Console.WriteLine(string.Join(", ", DisableExample.exponentiationList));
 
-// Pobieranie wartości za pomocą indeksu ujemnego
-//Console.WriteLine($"Day -1: {example[-1]}");
+// Dodanie elementów po zakończeniu bloku "using"
+NewMethod();
 
-// Sprawdzanie wartości po zmianie
-for (int i = 0; i < 7; i++)
+Console.WriteLine("rohgkl");
+
+
+static void NewMethod()
 {
-    Console.WriteLine($"Day {i}: {example[i]}");
+    using var example3 = new DisableExample();
+    example3.AddExpentiationToList(5);
+    Console.WriteLine(string.Join(", ", DisableExample.exponentiationList));
 }

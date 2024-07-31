@@ -1,6 +1,6 @@
 using TutorialWebApi.Services;
-using TuturialRestaurantApi.Data;
-using TuturialRestaurantApi.Middleware;
+using TuturialRestaurantApi.Application.Middleware;
+using TuturialRestaurantApi.Data.DataContext;
 
 var builder = WebApplication.CreateBuilder(args);
 

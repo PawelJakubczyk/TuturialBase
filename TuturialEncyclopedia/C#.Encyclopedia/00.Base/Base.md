@@ -1,0 +1,1 @@
+.NET framework platfoma obs³uguj¹ca 

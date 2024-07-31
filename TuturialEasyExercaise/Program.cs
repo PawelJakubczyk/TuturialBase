@@ -7,56 +7,60 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
-
-Kata.Rogal();
-
-string resoult = Kata.Order("4of Fo1r pe6ople g3ood th5e the2");
-Console.WriteLine(resoult);
+//using TuturialEncyclopedia.Encyclopedia.MemmoryExamples;
 
 
-public static class Kata
-{
-    public static string Order(string words)
-    {
-        string[] wordsArray = words.Split(' ');
-        int lengthOfSentence = wordsArray.Length;
-        int[] rangeArray = Enumerable.Range(1, lengthOfSentence).ToArray();
-        char[] charRangeArray = rangeArray
-            .Select(x => x.ToString()[0])
-            .ToArray();
+//Kata.Rogal();
 
-        List<int> positionList = new List<int>();
+//string resoult = Kata.Order("4of Fo1r pe6ople g3ood th5e the2");
+//Console.WriteLine(resoult);
 
-        foreach (char character in charRangeArray)
-        {
-            foreach (string word in wordsArray)
-            {
-                if (word.Contains(character))
-                {
-                    positionList.Add(int.Parse(character.ToString()));
-                }
-            }
-        }
 
-        string newString = string.Empty;
+//public static class Kata
+//{
+//    public static string Order(string words)
+//    {
+//        string[] wordsArray = words.Split(' ');
+//        int lengthOfSentence = wordsArray.Length;
+//        int[] rangeArray = Enumerable.Range(1, lengthOfSentence).ToArray();
+//        char[] charRangeArray = rangeArray
+//            .Select(x => x.ToString()[0])
+//            .ToArray();
 
-        foreach (int position in positionList)
-        {
-            newString += $"{wordsArray[position - 1]} ";
-        }
+//        List<int> positionList = new List<int>();
 
-        return newString.Trim();
+//        foreach (char character in charRangeArray)
+//        {
+//            foreach (string word in wordsArray)
+//            {
+//                if (word.Contains(character))
+//                {
+//                    positionList.Add(int.Parse(character.ToString()));
+//                }
+//            }
+//        }
 
-    }
+//        string newString = string.Empty;
 
-    public static void Rogal()
-    {
-        var firstArray = "dfsdewFDSFSD";
-        var secondArray = "okokmvfvf";
+//        foreach (int position in positionList)
+//        {
+//            newString += $"{wordsArray[position - 1]} ";
+//        }
 
-        var result =
-            from item in firstArray
-            from suit in secondArray
-            select  $"{item}{suit}";
-    }
-}
+//        return newString.Trim();
+
+//    }
+
+//    public static void Rogal()
+//    {
+//        var firstArray = "dfsdewFDSFSD";
+//        var secondArray = "okokmvfvf";
+
+//        var result =
+//            from item in firstArray
+//            from suit in secondArray
+//            select  $"{item}{suit}";
+//    }
+//}
+
+

@@ -3,12 +3,13 @@
 Modyfikatory dostępu określają widoczność metody dla innych klas i obiektów.
 
 - `public`: Metoda jest dostępna z każdego miejsca.
-- `protected`: Metoda jest dostępna w tej samej klasie i w klasach dziedziczących.
-- `private`: Metoda jest dostępna tylko w obrębie tej samej klasy.
 - `internal`: Metoda jest dostępna tylko w tym samym zestawie (assembly).
-- `file` : Metoda jest dostępna w obrębie pliku
+- `protected`: Metoda jest dostępna w tej samej klasie i w klasach dziedziczących.
 - `protected internal`: Metoda jest dostępna w tym samym zestawie i w klasach dziedziczących.
 - `private protected`: Metoda jest dostępna w tej samej klasie i w klasach dziedziczących, ale tylko w obrębie tego samego zestawu (assembly).
+- `private`: Metoda jest dostępna tylko w obrębie tej samej klasy.
+
+- `file` : Metoda jest dostępna w obrębie pliku
 
 
 ### 1. Typy najwyższego poziomu
