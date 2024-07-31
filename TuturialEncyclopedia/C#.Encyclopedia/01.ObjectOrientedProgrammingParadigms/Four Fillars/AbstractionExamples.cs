@@ -12,9 +12,9 @@ public abstract class Shape
     // Concrete method: Every inheriting class will have this method, and this method cannot be changed
     public void DisplayInfo()
     {
-        Console.WriteLine("Shape: " + this.GetType().Name);
-        Console.WriteLine("Area: " + CalculateArea());
-        Console.WriteLine("Perimeter: " + CalculatePerimeter());
+        Console.WriteLine($"Shape: {this.GetType().Name}");
+        Console.WriteLine($"Area: {CalculateArea()}");
+        Console.WriteLine($"Perimeter: {CalculatePerimeter()}");
     }
 
     // Virtual method: Every inheriting class will have this method, and this method can be overridden

@@ -5,7 +5,9 @@ Marker Interface
 Ewolutionary Interface
 Generic Interfase
 
-SingleTown
+SingleTone pattern
+
+
 
 Mediator
 Midleware
@@ -15,12 +17,6 @@ Problem Detail do web api
 refleksja
 
 faktoria
-
-Marker Inrerface
-
-generyczny interfejs
-
-Mediator
 
 Asembly(zestaw)
 
@@ -40,9 +36,13 @@ predicate predykata
 
 mediator
 
+rekord
+
 is as
 
 konstruktor statyczny
+
+serwis prowaider
 
 ??????????? Testing ???????????
 [Fact]
@@ -80,13 +80,12 @@ co to s¹ metadane?
 Agile
 Waterfall
 
-Cean Architectur
+Clean Architectur
 DDD
 
 Ró¿nica miêdzy throw a throw exception?
 
 tym generyczny bez pametrowy konstruktor jest referencyjnym typem nie jest nullem 
-
 
 moglbys daæ metodê rozszerzaj¹c¹ na inta nazywaj¹c¹ siê "public static bool InRange(this int input, int start, int end)" albo cos takiego
 
@@ -100,13 +99,13 @@ endpoint
 
 event
 
-tranzkcja
+tranzkcja - albo wszystko albo nic
 
 Midleware 
 Error handler
 Decorator
 
-Encja
+Encja(Entity) - Biznes objekt
 HTTP Context
 
 Command

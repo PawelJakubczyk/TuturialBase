@@ -15,7 +15,6 @@
 5. **Dependency Inversion Principle (DIP)**
    Wysokopoziomowe modu³y nie powinny zale¿eæ od niskopoziomowych modu³ów. Oba powinny zale¿eæ od abstrakcji.
 
-   Oczywiœcie, oto tabela przedstawiaj¹ca zasady SOLID:
 
 | Inicja³ | Skrót | Koncepcja |
 |---------|-------|-----------|
