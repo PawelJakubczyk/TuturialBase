@@ -1,6 +1,5 @@
 ﻿namespace Encyclopedia.MethodsExamples.Extensions;
 
-// Extension Classess must be static must expnd sttic class and use this keyword
 public class PlayerToExpand
 {
     public string? Name { get; set; }

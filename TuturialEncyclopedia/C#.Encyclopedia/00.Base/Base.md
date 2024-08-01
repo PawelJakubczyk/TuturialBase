@@ -1,1 +1,1 @@
-.NET framework platfoma obs³uguj¹ca 
+.NET framework platfoma obs³uguj¹ca jêzyk C#
