@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Encyclopedia.MethodsExamples.Extensions;
 
-
 public static class StringExtensions
 {
 

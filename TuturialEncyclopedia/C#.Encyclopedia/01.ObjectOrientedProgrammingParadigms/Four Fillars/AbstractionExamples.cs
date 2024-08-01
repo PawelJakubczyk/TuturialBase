@@ -1,6 +1,6 @@
 ﻿namespace Encyclopedia.OOP.FourFilarsExamples;
 
-// Abstract Class Example
+#region AbstractClass
 public abstract class Shape
 {
     // Abstract method: you must implement this method in the inheriting class
@@ -88,8 +88,9 @@ public sealed class Rectangle : Shape
         Console.WriteLine("A rectangle is a shape with four sides and four right angles, especially one with unequal adjacent sides.");
     }
 }
+#endregion
 
-// Interface Class Example
+#region Interface
 public interface IPrinter
 {
     void Print(string document); // Method to print a document
@@ -116,3 +117,4 @@ public class MultiFunctionDevice : IPrinter, IScanner
         Console.WriteLine($"Scanning document: {document}");
     }
 }
+#endregion
