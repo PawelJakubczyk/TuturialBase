@@ -30,8 +30,8 @@
     501 Not Implemented: Serwer nie obs³uguje funkcjonalnoœci wymaganej do obs³u¿enia ¿¹dania.
     502 Bad Gateway: Serwer dzia³a jako brama lub proxy i otrzyma³ nieprawid³ow¹ odpowiedŸ od upstream serwera.
     503 Service Unavailable: Serwer nie jest dostêpny (np. z powodu przeci¹¿enia lub konserwacji).
-
-
+    504 Gateway Timeout: Serwer internetowy nie otrzyma³ odpowiedzi w ustalonym czasie od innego serwera, który próbowa³ uzyskaæ dostêp do konkretnej strony internetowej
+    505 HTTP Version Not Supported: Serwer nie obs³uguje lub nie rozpoznaje wersji protoko³u HTTP u¿ytej w ¿¹daniu.
 
 ### 1xx: Informacyjne
 ASP.NET Core domyœlnie nie obs³uguje bezpoœredniego zwracania odpowiedzi z kodami 1xx. Te kody s¹ rzadko u¿ywane w aplikacjach webowych.
