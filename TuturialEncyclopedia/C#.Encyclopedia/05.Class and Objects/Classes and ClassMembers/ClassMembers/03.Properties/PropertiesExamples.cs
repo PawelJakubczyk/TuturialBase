@@ -1,24 +1,19 @@
 ﻿namespace Encyclopedia.ClassesExamples.ClassMembers;
 
-
-
-
-
 public sealed class AutoImplementedPropertiesExamples
 {
         public string? Name
         { get; set; }
 
-        public decimal Price
+        public double Price
         { get; set; }
-
-    //Constructor will be set automaticly
-    //public AutoImplementedPropertiesExamples(string? name, decimal price)
-    //{
-    //    Name = name;
-    //    Price = price;
-    //}
 }
+
+public sealed class AutoImplementedPropertiesExamplesTest
+{
+    private AutoImplementedPropertiesExamples test = new() { Name = "orange", Price = 13.22 };
+}
+
 
 public sealed class CheckAutoImplementedPropertiesExamples
 {
@@ -33,4 +28,11 @@ public sealed class CheckAutoImplementedPropertiesExamples
         Name = name;
         Price = price;
     }
+}
+
+
+
+public sealed class CheckAutoImplementedPropertiesExamplesTest
+{
+
 }

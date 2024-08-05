@@ -6,7 +6,7 @@ Scope - jest stworzony raz na dany scope
 
 SingletonPatern - 
 Strategy Patern - bechawioral odnoœnie zachowañ ncapsuluje logike w zael¿noœci od sposobu oddaje realizacje
-Bilder patern* - buduje jeden obiekt tworzenie obiektu
+Bilder patern - buduje jeden obiekt tworzenie obiektu
 
 Resoult pattern
 Mediator Pattern
