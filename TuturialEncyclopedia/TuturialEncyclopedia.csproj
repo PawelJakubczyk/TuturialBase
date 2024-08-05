@@ -18,7 +18,6 @@
   <ItemGroup>
     <Folder Include="ASP.Encyklopedia\20.ASP\" />
     <Folder Include="C#.Encyclopedia\04.Operators\" />
-    <Folder Include="C#.Encyclopedia\00.Base\" />
     <Folder Include="VS.Encyclopedia\" />
     <Folder Include="Encyclopedia\02.Programing Principles\04.KISS\" />
     <Folder Include="Encyclopedia\02.Programing Principles\05.YAGNI\" />
