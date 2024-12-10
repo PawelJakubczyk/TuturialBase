@@ -8,22 +8,131 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="C#.Encyclopedia\06.Memory\HipAndStack.md" />
+    <None Remove=".Net.Encyclopedia\06.MemoryManagement\HipAndStack.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="C#.Encyclopedia\06.Memory\HipAndStack.md" />
+    <Compile Include=".Net.Encyclopedia\01.ObjectOrientedProgrammingParadigms\Four Fillars\AbstractionExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\01.ObjectOrientedProgrammingParadigms\Four Fillars\EncapsulationExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\01.ObjectOrientedProgrammingParadigms\Four Fillars\InheritanceExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\01.ObjectOrientedProgrammingParadigms\Four Fillars\PolymorphismExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\02.ProgrammingPrinciples\02.SOLID\LiscovPrincipleExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\02.ProgrammingPrinciples\02.SOLID\SOLID.cs" />
+    <Compile Include=".Net.Encyclopedia\03.DataType\DeclaringAndInitializingOfStrings.cs" />
+    <Compile Include=".Net.Encyclopedia\03.DataType\Types\ArrayExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\03.DataType\Types\Types.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\01.Fields and Constants\FieldsExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\02.Constants\ConstantsExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\03.Properties\Properties.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\03.Properties\PropertiesExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\EachObjectMethodExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\ExtensionMethod\CustomClassExtesion\PlayerExtension.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\ExtensionMethod\CustomClassExtesion\PlayerToExpand.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\ExtensionMethod\ExtensionMethodExmples.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\ExtensionMethod\IntegerExtensions.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\ExtensionMethod\ListExtensions.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\ExtensionMethod\StringExtensions.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\FactoryMethod\FactoryMethodExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\MethodsExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\IndexerExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\AbstractAnimals.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\ConstructorPerson.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\Delegath.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\EnumPolymorphAlien.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\GenericBook.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\IAnimal.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\Rogal.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\SipmnlyPingSend.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\StaticCalculator.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\Examples\ValidationCandy.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\GenericCalculator.cs" />
+    <Compile Include=".Net.Encyclopedia\05.ClassesAndObjects\ConstAndReadOnly.cs" />
+    <Compile Include=".Net.Encyclopedia\06.MemoryManagement\Using\UsingExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\07.LoopsAndSwich\Class1.cs" />
+    <Compile Include=".Net.Encyclopedia\07.LoopsAndSwich\VoidCalculatorSwich.cs" />
+    <Compile Include=".Net.Encyclopedia\07.LoopsAndSwich\WeekDaysSwichCase.cs" />
+    <Compile Include=".Net.Encyclopedia\08.Linq\LinqAgregation.cs" />
+    <Compile Include=".Net.Encyclopedia\08.Linq\LinqColectionOperations.cs" />
+    <Compile Include=".Net.Encyclopedia\08.Linq\LinqFilter.cs" />
+    <Compile Include=".Net.Encyclopedia\08.Linq\LinqProjection.cs" />
+    <Compile Include=".Net.Encyclopedia\08.Linq\LinqQuantifier.cs" />
+    <Compile Include=".Net.Encyclopedia\08.Linq\LinqSort.cs" />
+    <Compile Include=".Net.Encyclopedia\09.Asynchronous\AsyncAwaitExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\09.Asynchronous\AsynchronousLearning.cs" />
+    <Compile Include=".Net.Encyclopedia\09.Asynchronous\Class1.cs" />
+    <Compile Include=".Net.Encyclopedia\09.Asynchronous\WhenAllWhenAnyExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\10.ExceptionHandling\TryCatchExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\11.Delegats\ActionsExample.cs" />
+    <Compile Include=".Net.Encyclopedia\11.Delegats\FuncLambdaExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\11.Delegats\PredicateExample.cs" />
+    <Compile Include=".Net.Encyclopedia\12.Yield\YieldExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\13.Atribiutes\AttributeExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\16.Structure\StructureExamples.cs" />
+    <Compile Include=".Net.Encyclopedia\20.DesignPatterns\Builder\BuilderExmples.cs" />
+    <Compile Include=".Net.Encyclopedia\20.DesignPatterns\CQRS\CQRS.cs" />
+    <Compile Include=".Net.Encyclopedia\20.DesignPatterns\Mediator\Mediator.cs" />
+    <Compile Include=".Net.Encyclopedia\09.Asynchronous\AsynchronousProgramming.cs" />
+    <Compile Include=".Net.Encyclopedia\06.MemoryManagement\HipAndStack.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ASP.Encyklopedia\20.ASP\" />
-    <Folder Include="C#.Encyclopedia\04.Operators\" />
+    <Folder Include=".Net.Encyclopedia\15.Generics\" />
+    <Folder Include=".Net.Encyclopedia\21.DependencyInjection\" />
     <Folder Include="VS.Encyclopedia\" />
     <Folder Include="Encyclopedia\02.Programing Principles\04.KISS\" />
     <Folder Include="Encyclopedia\02.Programing Principles\05.YAGNI\" />
     <Folder Include="Encyclopedia\06.Memory\BoxingAndUnboxing\" />
     <Folder Include="Encyclopedia\14.Refleksion\" />
     <Folder Include="Encyclopedia\19.Debuger\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".Net.Encyclopedia\!Lexicon\0.Baseic.md" />
+    <None Include=".Net.Encyclopedia\01.ObjectOrientedProgrammingParadigms\Four Fillars\4-filaryOO-1024x386.jpg" />
+    <None Include=".Net.Encyclopedia\01.ObjectOrientedProgrammingParadigms\Four Fillars\AbstractClassVSInteface.md" />
+    <None Include=".Net.Encyclopedia\01.ObjectOrientedProgrammingParadigms\Four Fillars\Encapsulation.md" />
+    <None Include=".Net.Encyclopedia\01.ObjectOrientedProgrammingParadigms\NameSpace.md" />
+    <None Include=".Net.Encyclopedia\01.ObjectOrientedProgrammingParadigms\ObjectOrientedPrograming.md" />
+    <None Include=".Net.Encyclopedia\02.ProgrammingPrinciples\02.SOLID\SOLID.md" />
+    <None Include=".Net.Encyclopedia\02.ProgrammingPrinciples\03.DRY\DRY.md" />
+    <None Include=".Net.Encyclopedia\02.ProgrammingPrinciples\04.KISS\dummy.txt" />
+    <None Include=".Net.Encyclopedia\02.ProgrammingPrinciples\05.YAGNI\dummy.txt" />
+    <None Include=".Net.Encyclopedia\03.DataType\Types.md" />
+    <None Include=".Net.Encyclopedia\04.Operators\dummy.txt" />
+    <None Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassesTypes.md" />
+    <None Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\EachObjectMethod.md" />
+    <None Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\Methods.md" />
+    <None Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\04.Methods\MethodTypes.md" />
+    <None Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\ClassesAndClassMembers.md" />
+    <None Include=".Net.Encyclopedia\05.ClassesAndObjects\Classes and ClassMembers\ClassMembers\ConstAndReadOnly.md" />
+    <None Include=".Net.Encyclopedia\06.MemoryManagement\BoxingAndUnboxing\dummy.txt" />
+    <None Include=".Net.Encyclopedia\06.MemoryManagement\MemoryLeak.md" />
+    <None Include=".Net.Encyclopedia\06.MemoryManagement\Obiect Memory Storage.md" />
+    <None Include=".Net.Encyclopedia\06.MemoryManagement\Using\Using.md" />
+    <None Include=".Net.Encyclopedia\09.Asynchronous\AsyncAwait.md" />
+    <None Include=".Net.Encyclopedia\10.ExceptionHandling\Exceptions.md" />
+    <None Include=".Net.Encyclopedia\10.ExceptionHandling\TryCatch.md" />
+    <None Include=".Net.Encyclopedia\11.Delegats\Actions.md" />
+    <None Include=".Net.Encyclopedia\11.Delegats\Lambda.md" />
+    <None Include=".Net.Encyclopedia\11.Delegats\Predicate.md" />
+    <None Include=".Net.Encyclopedia\14.Refleksion\dummy.txt" />
+    <None Include=".Net.Encyclopedia\19.Debuger\dummy.txt" />
+    <None Include=".Net.Encyclopedia\20.DesignPatterns\CQRS\CQRS Patern.md" />
+    <None Include=".Net.Encyclopedia\20.DesignPatterns\CQRS\CQRS1.png" />
+    <None Include=".Net.Encyclopedia\20.DesignPatterns\CQRS\CQRS2 — kopia.png" />
+    <None Include=".Net.Encyclopedia\20.DesignPatterns\CQRS\CQRS2.png" />
+    <None Include=".Net.Encyclopedia\20.DesignPatterns\DI\Dependency Injection.md" />
+    <None Include=".Net.Encyclopedia\20.DesignPatterns\Mediator\Mediator.md" />
+    <None Include=".Net.Encyclopedia\00.Basic\ClassDefinitions.md" />
+    <None Include=".Net.Encyclopedia\00.Basic\DesignPattern.md" />
+    <None Include=".Net.Encyclopedia\!Lexicon\0.Basic.md" />
+    <None Include=".Net.Encyclopedia\!Lexicon\1.Paradigmats.md" />
+    <None Include=".Net.Encyclopedia\!Lexicon\2.Principles.md" />
+    <None Include=".Net.Encyclopedia\!Lexicon\3.DataType.md" />
+    <None Include=".Net.Encyclopedia\!Lexicon\4.Operators.md" />
+    <None Include=".Net.Encyclopedia\!Lexicon\5.ClassAndObjects.md" />
+    <None Include=".Net.Encyclopedia\!Lexicon\6.Memory.md" />
+    <None Include=".net.encyclopedia\Index.md" />
   </ItemGroup>
 
   <ItemGroup>

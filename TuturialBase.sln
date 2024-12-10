@@ -5,19 +5,13 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuturialEncyclopedia", "TuturialEncyclopedia\TuturialEncyclopedia.csproj", "{1910FB50-D528-4A42-984B-5B0CD0AA3B23}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuturialMovieApi", "TuturialMovieApi\TuturialMovieApi.csproj", "{25D0D4CD-AAD1-4C1A-8337-41E0B4E30B06}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuturialEasyExercaise", "TuturialEasyExercaise\TuturialEasyExercaise.csproj", "{ED89D2DE-DDDA-4CFF-97B8-1E87A798DCD2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuturialRestaurantApi", "TuturialRestaurantApi\TuturialRestaurantApi.csproj", "{28801C65-0388-449C-8BBD-A407C0F3855D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTuturialRestaurantApi", "TestTuturialRestaurantApi\TestTuturialRestaurantApi.csproj", "{F142447F-4B16-4BE6-B9E7-8CB3E0212CCE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTuturialEncyclopedia", "TestTuturialEncyclopedia\TestTuturialEncyclopedia.csproj", "{2EA8000E-7D8F-4D3C-9EC7-A75CD6A62223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTuturialEasyExercaise", "TestTuturialEasyExercaise\TestTuturialEasyExercaise.csproj", "{FF80811D-797B-451E-9539-A5A45E000C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTuturialEasyExercaise", "TestTuturialEasyExercaise\TestTuturialEasyExercaise.csproj", "{FF80811D-797B-451E-9539-A5A45E000C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTuturialMovieApi", "TestTuturialMovieApi\TestTuturialMovieApi.csproj", "{5B2052F1-C2E5-4CAF-B78D-F9092B164CE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspTuturialEncyklopedia", "AspTuturialEncyklopedia\AspTuturialEncyklopedia.csproj", "{E8DC8665-1A2D-4CD7-B6C2-E18990BD5B82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,22 +23,10 @@ Global
 		{1910FB50-D528-4A42-984B-5B0CD0AA3B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1910FB50-D528-4A42-984B-5B0CD0AA3B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1910FB50-D528-4A42-984B-5B0CD0AA3B23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25D0D4CD-AAD1-4C1A-8337-41E0B4E30B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25D0D4CD-AAD1-4C1A-8337-41E0B4E30B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25D0D4CD-AAD1-4C1A-8337-41E0B4E30B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25D0D4CD-AAD1-4C1A-8337-41E0B4E30B06}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED89D2DE-DDDA-4CFF-97B8-1E87A798DCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED89D2DE-DDDA-4CFF-97B8-1E87A798DCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED89D2DE-DDDA-4CFF-97B8-1E87A798DCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED89D2DE-DDDA-4CFF-97B8-1E87A798DCD2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{28801C65-0388-449C-8BBD-A407C0F3855D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28801C65-0388-449C-8BBD-A407C0F3855D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28801C65-0388-449C-8BBD-A407C0F3855D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28801C65-0388-449C-8BBD-A407C0F3855D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F142447F-4B16-4BE6-B9E7-8CB3E0212CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F142447F-4B16-4BE6-B9E7-8CB3E0212CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F142447F-4B16-4BE6-B9E7-8CB3E0212CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F142447F-4B16-4BE6-B9E7-8CB3E0212CCE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2EA8000E-7D8F-4D3C-9EC7-A75CD6A62223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2EA8000E-7D8F-4D3C-9EC7-A75CD6A62223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA8000E-7D8F-4D3C-9EC7-A75CD6A62223}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,10 +35,10 @@ Global
 		{FF80811D-797B-451E-9539-A5A45E000C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF80811D-797B-451E-9539-A5A45E000C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF80811D-797B-451E-9539-A5A45E000C92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B2052F1-C2E5-4CAF-B78D-F9092B164CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B2052F1-C2E5-4CAF-B78D-F9092B164CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B2052F1-C2E5-4CAF-B78D-F9092B164CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B2052F1-C2E5-4CAF-B78D-F9092B164CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DC8665-1A2D-4CD7-B6C2-E18990BD5B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DC8665-1A2D-4CD7-B6C2-E18990BD5B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DC8665-1A2D-4CD7-B6C2-E18990BD5B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DC8665-1A2D-4CD7-B6C2-E18990BD5B82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
